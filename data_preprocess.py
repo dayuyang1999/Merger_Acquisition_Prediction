@@ -6,7 +6,21 @@ import torch
 from tqdm import tqdm
 import warnings
 
-### helper funcs
+
+
+######################################### creating global variables
+
+tmp_data_path = '../MA_data/data/tmp'
+data_path = '../MA_data/data'
+
+s_year = 1997
+e_year = 2020
+
+load_timeline_from_pickle = False
+
+
+################################################ helper funcs, for creating arr_c, arr_b, timeline #######
+    
 
 def create_freq_a(sdc_tnic, min_event=5):
     A_freq = pd.DataFrame(sdc_tnic.AGVKEY.value_counts()).reset_index(drop=False)
@@ -219,38 +233,25 @@ def dataloader_preproceser(focal_gvkey):
 
 
 
-
-
-
-######################################### creating global variables
-
-tmp_data_path = '../MA_data/data/tmp'
-data_path = '../MA_data/data'
-
-s_year = 1997
-e_year = 2020
-
-load_timeline_from_pickle = False
+###################################################### step 1, creating arr_c, arr_b, timeline ###############
 
 
 
 
-
-
-
-### run
-sdc_tnic = pd.read_pickle(tmp_data_path+f"/sdc_tnic_{s_year}_{e_year}")
-sdc_tnic = same_day_only_one(sdc_tnic)
-with open(tmp_data_path+f"/tnic_info_3_pairs_{s_year-1}_{e_year-1}", 'rb') as f:
+########## loading pre-prepared dataset
+# WARNING: self event at year "y" will use tnic and fv data at year "y-1"
+sdc_tnic = pd.read_pickle(tmp_data_path+f"/sdc_tnic_1997_2020") # always load full dataset
+sdc_tnic = same_day_only_one(sdc_tnic) # make sure 1 timpoint could only happen 1 event (otherwise violate the assumption of point process)
+with open(tmp_data_path+f"/tnic_info_3_pairs_{1997-1}_{2020-1}", 'rb') as f: # read full
     gvkey_lsts, key_ind_maps , ind_key_maps = pickle.load(f)
-
+# only focus on frequent acquirer 
 A_freq, a_freq_lst, a_freq_idx_to_gvkey_mapping, a_freq_gvkey_to_idx_mapping = create_freq_a(sdc_tnic)
-
 a_freq_info = (A_freq, a_freq_lst, a_freq_idx_to_gvkey_mapping, a_freq_gvkey_to_idx_mapping)
-
-with open(data_path+f"/freq_a_info_{s_year}_{e_year}.pickle", "wb") as f:
+with open(data_path+f"/freq_a_info_1997_2020.pickle", "wb") as f: 
     pickle.dump(a_freq_info, f)
 
+# creating arr_cs, arr_bs, timelines
+# WARNING, if load_timeline_from_pickle is False, the new created arrs will replace the existing pickle
 if load_timeline_from_pickle:
     with open(data_path+f"/dataset_top10_freq5_{s_year}_{e_year}.pickle", "rb") as f:
         arr_cs, arr_bs, timelines = pickle.load(f)
@@ -274,18 +275,28 @@ else:
     with open(data_path+f"/dataset_top10_freq5_{s_year}_{e_year}.pickle", "wb") as f:
         pickle.dump((arr_cs, arr_bs, timelines), f)
 
+
+
+# load full fv raw and normalize it
 with open(data_path+"/fv_raw_full_1996_2019.pickle", 'rb') as f:
     fv_full = pickle.load(f)
 fv_full = pd.concat([fv_full.iloc[:,:2], minmax_normalize(fv_full.iloc[:, 2:])], axis=1)
 
 
 
-######################################## creating variables #######################
-
-    
 
 
 
+
+
+
+
+######################################## from  variables #######################
+'''
+the input is arr_cs, arr_bs, timelines, fv, tnic 
+the output is the data described in model.py
+
+'''
 # creating helpers
 def get_arr_b_idx(df):
     '''
