@@ -1,0 +1,105 @@
+CUDA availability: True
+tensor([[0.4542, 0.2595, 0.2547, 0.2440]], grad_fn=<MulBackward0>)
+tensor(-4.9164, grad_fn=<SumBackward0>)
+Epoch 0. Total Loss: 29090.4343. Timing MLE loss: 29088.3269. Choice BCE loss 2.1074
+tensor([[0.1244, 0.0901, 0.0908, 0.0577]], grad_fn=<MulBackward0>)
+tensor(-9.7434, grad_fn=<SumBackward0>)
+Epoch 1. Total Loss: 4145.5800. Timing MLE loss: 4144.3050. Choice BCE loss 1.2750
+tensor([[0.0333, 0.0153, 0.0162, 0.0068]], grad_fn=<MulBackward0>)
+tensor(-16.6925, grad_fn=<SumBackward0>)
+Epoch 2. Total Loss: 622.7527. Timing MLE loss: 622.1880. Choice BCE loss 0.5647
+tensor([[0.0182, 0.0035, 0.0039, 0.0021]], grad_fn=<MulBackward0>)
+tensor(-21.3595, grad_fn=<SumBackward0>)
+Epoch 3. Total Loss: 182.9091. Timing MLE loss: 182.8449. Choice BCE loss 0.0642
+tensor([[0.0033, 0.0013, 0.0015, 0.0011]], grad_fn=<MulBackward0>)
+tensor(-25.6874, grad_fn=<SumBackward0>)
+Epoch 4. Total Loss: 79.3970. Timing MLE loss: 79.3908. Choice BCE loss 0.0062
+tensor([[0.0024, 0.0003, 0.0003, 0.0002]], grad_fn=<MulBackward0>)
+tensor(-30.9352, grad_fn=<SumBackward0>)
+Epoch 5. Total Loss: 52.3590. Timing MLE loss: 52.3472. Choice BCE loss 0.0118
+tensor([[0.0009, 0.0002, 0.0002, 0.0001]], grad_fn=<MulBackward0>)
+tensor(-32.8227, grad_fn=<SumBackward0>)
+Epoch 6. Total Loss: 72.4839. Timing MLE loss: 72.4646. Choice BCE loss 0.0193
+tensor([[0.0004, 0.0001, 0.0001, 0.0002]], grad_fn=<MulBackward0>)
+tensor(-34.4763, grad_fn=<SumBackward0>)
+Epoch 7. Total Loss: 39.1235. Timing MLE loss: 39.0978. Choice BCE loss 0.0257
+tensor([[1.4332e-04, 8.2413e-05, 1.0513e-04, 4.0001e-05]],
+       grad_fn=<MulBackward0>)
+tensor(-37.5412, grad_fn=<SumBackward0>)
+Epoch 8. Total Loss: 42.2397. Timing MLE loss: 42.2068. Choice BCE loss 0.0330
+tensor([[3.3184e-04, 4.1609e-05, 5.4675e-05, 1.6885e-05]],
+       grad_fn=<MulBackward0>)
+tensor(-38.9013, grad_fn=<SumBackward0>)
+Epoch 9. Total Loss: 40.8585. Timing MLE loss: 40.8127. Choice BCE loss 0.0459
+tensor([[1.2583e-04, 3.0152e-05, 4.0805e-05, 7.6385e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-41.2789, grad_fn=<SumBackward0>)
+Epoch 10. Total Loss: 42.2384. Timing MLE loss: 42.1889. Choice BCE loss 0.0495
+tensor([[8.1169e-04, 3.4172e-06, 4.8243e-06, 5.8294e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-43.9975, grad_fn=<SumBackward0>)
+Epoch 11. Total Loss: 45.1189. Timing MLE loss: 45.0645. Choice BCE loss 0.0543
+tensor([[6.8343e-05, 8.8445e-06, 1.2865e-05, 6.0304e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-44.5064, grad_fn=<SumBackward0>)
+Epoch 12. Total Loss: 45.1868. Timing MLE loss: 45.1359. Choice BCE loss 0.0508
+tensor([[1.2201e-04, 4.8644e-05, 7.3167e-05, 8.0405e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-42.4988, grad_fn=<SumBackward0>)
+Epoch 13. Total Loss: 43.3807. Timing MLE loss: 43.3325. Choice BCE loss 0.0482
+tensor([[7.2765e-05, 3.0152e-06, 4.6233e-06, 5.8294e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-46.5771, grad_fn=<SumBackward0>)
+Epoch 14. Total Loss: 46.9257. Timing MLE loss: 46.8713. Choice BCE loss 0.0543
+tensor([[5.2262e-05, 1.7488e-05, 2.8343e-05, 2.4121e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-44.2194, grad_fn=<SumBackward0>)
+Epoch 15. Total Loss: 44.5725. Timing MLE loss: 44.5181. Choice BCE loss 0.0543
+tensor([[1.0654e-05, 1.6081e-06, 2.8142e-06, 3.0152e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-50.2828, grad_fn=<SumBackward0>)
+Epoch 16. Total Loss: 50.4301. Timing MLE loss: 50.3757. Choice BCE loss 0.0543
+tensor([[9.6486e-06, 1.0051e-06, 1.8091e-06, 6.0304e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-52.9031, grad_fn=<SumBackward0>)
+Epoch 17. Total Loss: 53.0504. Timing MLE loss: 52.9961. Choice BCE loss 0.0543
+tensor([[3.0152e-06, 1.6081e-06, 2.8142e-06, 4.0403e-05]],
+       grad_fn=<MulBackward0>)
+tensor(-48.9498, grad_fn=<SumBackward0>)
+Epoch 18. Total Loss: 49.2144. Timing MLE loss: 49.1601. Choice BCE loss 0.0543
+tensor([[2.0101e-06, 6.0304e-07, 1.0051e-06, 2.8142e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-54.0299, grad_fn=<SumBackward0>)
+Epoch 19. Total Loss: 54.2382. Timing MLE loss: 54.1839. Choice BCE loss 0.0543
+tensor([[6.4324e-06, 1.2061e-06, 2.4121e-06, 2.2111e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-51.5393, grad_fn=<SumBackward0>)
+Epoch 20. Total Loss: 51.6561. Timing MLE loss: 51.6018. Choice BCE loss 0.0543
+tensor([[2.0101e-06, 3.2162e-06, 6.4324e-06, 0.0000e+00]],
+       grad_fn=<MulBackward0>)
+tensor(-inf, grad_fn=<SumBackward0>)
+Epoch 21. Total Loss: inf. Timing MLE loss: inf. Choice BCE loss 0.0543
+tensor([[nan, nan, nan, nan]], grad_fn=<MulBackward0>)
+tensor(nan, grad_fn=<SumBackward0>)
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 48, in train
+    loss, timing_loss, choice_loss  = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 194, in forward
+    event_choice_loss = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 346, in forward
+    choice_l = self.loss(torch.sigmoid(logits_i), true_tar_idxs_i)  # inputs are both (N_i_2, N_i_1)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 613, in forward
+    return F.binary_cross_entropy(input, target, weight=self.weight, reduction=self.reduction)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 2759, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: all elements of input should be between 0 and 1

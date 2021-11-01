@@ -1,0 +1,57 @@
+
+CUDA availability: True
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 48, in train
+    loss, timing_loss, choice_loss  = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 195, in forward
+    event_choice_loss = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)*1000
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 349, in forward
+    choice_l = F.binary_cross_entropy(torch.sigmoid(logits_i), true_tar_idxs_i)  # inputs are both (N_i_2, N_i_1)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 2759, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: all elements of input should be between 0 and 1
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)
+tensor(1.)

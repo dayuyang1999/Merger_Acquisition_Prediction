@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.0.0-37-generic-x86_64-with-glibc2.17",
+    "python": "3.8.10",
+    "heartbeatAt": "2021-10-30T17:44:39.842729",
+    "startedAt": "2021-10-30T17:44:39.057737",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 4,
+    "cpu_count": 36,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "host": "buec-xiaoflambda",
+    "username": "dalab5",
+    "executable": "/home/dalab5/miniconda3/envs/GNN/bin/python3"
+}

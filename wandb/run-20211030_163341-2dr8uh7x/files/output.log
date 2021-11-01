@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 48, in train
+    loss, timing_loss, choice_loss  = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 195, in forward
+    event_choice_loss = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 347, in forward
+    choice_l = self.loss(torch.sigmoid(logits_i), true_tar_idxs_i)  # inputs are both (N_i_2, N_i_1)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 613, in forward
+    return F.binary_cross_entropy(input, target, weight=self.weight, reduction=self.reduction)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 2759, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: all elements of input should be between 0 and 1
+CUDA availability: True
+### rate: tensor([[2.6939, 3.4615, 0.0356, 4.1365]], grad_fn=<AddBackward0>)
+### rate: tensor([[ 21.5617,  63.2703,  57.6622,  11.9762,  19.4863,   2.5129,  27.9929,
+          43.8531,  56.0627,   3.4012,  17.6780,  35.9945, 178.6314, 163.2645,
+          13.9770,  22.0219,  14.7375, 252.3271,  52.8074,  70.1614, 106.7553,
+           8.3068,  35.5942,  19.7640,  53.2118,  91.0192,  50.2030,  55.2103,
+          21.2612,  11.6638,   1.7967,  27.6051, 274.1721,  43.9557,  64.5281,
+           9.6008,  46.3562,  49.6710, 164.5702, 108.4897]],
+       grad_fn=<AddBackward0>)
+### event lambdas:  tensor([[2.7687, 3.4979, 0.7377, 4.1557]], grad_fn=<MulBackward0>)
+### non event lambdas:  tensor([[21.5617, 63.2703, 57.6622, 11.9762, 19.4863,  2.6014, 27.9929, 43.8531,
+         56.0627,  3.4397, 17.6780, 35.9945,     inf,     inf, 13.9770, 22.0219,
+         14.7375,     inf, 52.8074, 70.1614,     inf,  8.3071, 35.5942, 19.7640,
+         53.2118, 91.0192, 50.2030, 55.2103, 21.2612, 11.6638,  1.9661, 27.6051,
+             inf, 43.9557, 64.5281,  9.6009, 46.3562, 49.6710,     inf,     inf]],
+       grad_fn=<MulBackward0>)
+Epoch 0. Total Loss: inf. Timing MLE loss: inf. Choice BCE loss 2.1463
+### rate: tensor([[nan, nan, nan, nan]], grad_fn=<AddBackward0>)
+### rate: tensor([[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+         nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]],
+       grad_fn=<AddBackward0>)
+### event lambdas:  tensor([[nan, nan, nan, nan]], grad_fn=<MulBackward0>)
+### non event lambdas:  tensor([[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+         nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan]],
+       grad_fn=<MulBackward0>)

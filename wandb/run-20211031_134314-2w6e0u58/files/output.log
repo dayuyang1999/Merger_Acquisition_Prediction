@@ -1,0 +1,154 @@
+
+CUDA availability: True
+### event lambdas:  tensor([[1.4453],
+        [1.5343],
+        [1.5351],
+        [1.8301],
+        [1.7818]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(-2.4070, grad_fn=<NegBackward>) non event loss:  tensor([11982.0818], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[5.4288e-02],
+        [7.8694e-03],
+        [1.2921e-04],
+        [1.3752e-02],
+        [1.1807e-01],
+        [1.4232e-01]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(25.0850, grad_fn=<NegBackward>) non event loss:  tensor([306.6503], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[1.9812e-05],
+        [4.1927e-03],
+        [7.5767e-12]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(41.9096, grad_fn=<NegBackward>) non event loss:  tensor([7.9719], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[2.8030e-06],
+        [4.5667e-06],
+        [2.0161e-07],
+        [5.0611e-07],
+        [1.7542e-05],
+        [6.2271e-12]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(91.7480, grad_fn=<NegBackward>) non event loss:  tensor([1.0295], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[3.5522e-05],
+        [9.1298e-06],
+        [5.0644e-05],
+        [8.1684e-06],
+        [7.8657e-06],
+        [6.4623e-07],
+        [3.9358e-06]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(81.9058, grad_fn=<NegBackward>) non event loss:  tensor([1.0375], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[7.3748e-04],
+        [2.3823e-03],
+        [5.9177e-04],
+        [7.6056e-04],
+        [7.6736e-05],
+        [3.3521e-07],
+        [1.6067e-13],
+        [2.7290e-12],
+        [9.1056e-10]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(129.1530, grad_fn=<NegBackward>) non event loss:  tensor([0.5509], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[5.7286e-06],
+        [1.3735e-04],
+        [1.8828e-05],
+        [2.2893e-09],
+        [1.3683e-14]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(83.6608, grad_fn=<NegBackward>) non event loss:  tensor([0.0548], dtype=torch.float64, grad_fn=<MulBackward0>)
+  2%|█████                                                                                                                                                                                                           | 12/496 [00:02<01:49,  4.42it/s]/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py:145: UserWarning: Error detected in SoftplusBackward. Traceback of forward call that caused the error:
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 81, in train
+    loss, timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 184, in forward
+    event_lambdas = self.timing_net(mat_b, mat_c, event_data) # (L3, )
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 268, in forward
+    lambda_dt = self.f_lambda(torch.transpose(rate, dim0=0, dim1=1))
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 784, in forward
+    return F.softplus(input, self.beta, self.threshold)
+ (Triggered internally at  /opt/conda/conda-bld/pytorch_1614378062065/work/torch/csrc/autograd/python_anomaly_mode.cpp:104.)
+  Variable._execution_engine.run_backward(
+  2%|█████                                                                                                                                                                                                           | 12/496 [00:02<01:52,  4.29it/s]
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 84, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: Function 'SoftplusBackward' returned nan values in its 0th output.
+### event lambdas:  tensor([[5.9136e-09],
+        [1.0455e-06],
+        [1.5300e-06],
+        [1.2342e-06],
+        [8.6775e-06],
+        [4.2463e-06],
+        [1.4120e-05],
+        [1.2861e-06],
+        [5.0523e-07],
+        [3.4217e-06],
+        [7.8494e-08],
+        [1.8678e-07],
+        [3.2923e-09],
+        [1.5650e-05],
+        [1.5451e-12],
+        [3.7101e-04],
+        [2.3262e-04],
+        [4.7237e-06]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(253.7266, grad_fn=<NegBackward>) non event loss:  tensor([0.0881], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[5.0547e-04],
+        [4.0171e-11],
+        [4.0798e-11]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(55.4503, grad_fn=<NegBackward>) non event loss:  tensor([0.0684], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[2.3351e-05],
+        [2.6188e-05],
+        [6.7483e-05],
+        [2.1658e-05],
+        [6.2743e-06],
+        [1.5209e-12],
+        [1.7717e-07],
+        [8.6173e-09],
+        [2.0610e-09],
+        [9.6764e-09],
+        [8.7352e-09],
+        [1.8644e-07]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(187.3700, grad_fn=<NegBackward>) non event loss:  tensor([0.0321], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[3.6793e-05],
+        [4.3722e-23],
+        [4.7057e-10],
+        [1.1169e-10],
+        [1.4558e-06],
+        [8.1399e-08],
+        [1.1056e-24],
+        [1.3860e-06],
+        [1.0088e-06],
+        [8.8269e-07],
+        [9.3089e-07],
+        [1.1670e-07]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(262.0991, grad_fn=<NegBackward>) non event loss:  tensor([0.0502], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[1.2778e-33],
+        [5.6831e-23],
+        [1.3808e-09],
+        [1.0769e-06],
+        [6.9603e-07],
+        [2.5567e-07],
+        [3.5055e-11]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(214.5355, grad_fn=<NegBackward>) non event loss:  tensor([0.0089], dtype=torch.float64, grad_fn=<MulBackward0>)
+### event lambdas:  tensor([[1.7260e-05],
+        [4.9560e-07],
+        [3.6962e-05],
+        [2.0490e-06],
+        [1.4342e-05],
+        [9.2856e-07],
+        [3.8606e-06],
+        [4.7090e-09],
+        [2.2572e-06],
+        [1.1932e-08],
+        [5.7752e-07],
+        [0.0000e+00]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(inf, grad_fn=<NegBackward>) non event loss:  tensor([0.0199], dtype=torch.float64, grad_fn=<MulBackward0>)

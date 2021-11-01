@@ -1,0 +1,14 @@
+
+CUDA availability: True
+Traceback (most recent call last):
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 65, in train
+    model = MAPredNet()
+  File "/home/dalab5/Projects/MA_packed/model.py", line 61, in __init__
+    self.timing_net = Timing_Net(self.embedding_b, self.embedding_c)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 221, in __init__
+    torch.sin(nn.Linear(in_features=1, out_features=10)),
+TypeError: sin(): argument 'input' (position 1) must be Tensor, not Linear

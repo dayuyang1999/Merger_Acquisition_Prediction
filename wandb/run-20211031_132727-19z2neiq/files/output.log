@@ -1,0 +1,75 @@
+
+CUDA availability: True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 99%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████   | 489/496 [01:36<00:01,  5.06it/s]
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 496/496 [01:37<00:00,  5.10it/s]
+
+
+
+
+
+
+
+
+
+
+
+ 27%|████████████████████████████████████████████████████████▊                                                                                                                                                      | 136/496 [00:23<01:02,  5.80it/s]
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 84, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt

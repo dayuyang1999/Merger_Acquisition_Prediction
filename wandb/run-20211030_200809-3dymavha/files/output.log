@@ -1,0 +1,69 @@
+
+CUDA availability: True
+  2%|████▌                                                                                                                                                                                          | 12/496 [00:01<00:37, 12.83it/s]
+batch number:  0
+batch number:  1
+batch number:  2
+batch number:  3
+batch number:  4
+batch number:  5
+batch number:  6
+batch number:  7
+batch number:  8
+batch number:  9
+batch number:  10
+batch number:  11
+batch number:  12
+
+  7%|█████████████                                                                                                                                                                                  | 34/496 [00:03<00:57,  8.07it/s]
+batch number:  14
+batch number:  15
+batch number:  16
+batch number:  17
+batch number:  18
+batch number:  19
+batch number:  20
+batch number:  21
+batch number:  22
+batch number:  23
+batch number:  24
+batch number:  25
+batch number:  26
+batch number:  27
+batch number:  28
+batch number:  29
+batch number:  30
+batch number:  31
+batch number:  32
+batch number:  33
+ 10%|████████████████████                                                                                                                                                                           | 52/496 [00:04<00:41, 10.62it/s]
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 50, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+batch number:  35
+batch number:  36
+batch number:  37
+batch number:  38
+batch number:  39
+batch number:  40
+batch number:  41
+batch number:  42
+batch number:  43
+batch number:  44
+batch number:  45
+batch number:  46
+batch number:  47
+batch number:  48
+batch number:  49
+batch number:  50
+batch number:  51
+batch number:  52

@@ -1,0 +1,96 @@
+
+CUDA availability: True
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 48, in train
+    loss, timing_loss, choice_loss  = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 195, in forward
+    event_choice_loss = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)*1000
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 355, in forward
+    choice_l = F.binary_cross_entropy(torch.sigmoid(logits_i), true_tar_idxs_i)  # inputs are both (N_i_2, N_i_1)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 2759, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: all elements of input should be between 0 and 1
+### arr_b_idx_i tensor(2)
+tensor([[[-0.2798, -0.1198, -0.0912, -0.2515, -0.0065, -0.1701, -0.0257,
+          -0.1751,  0.0354, -0.0350, -0.0654, -0.0576, -0.0700, -0.0799,
+          -0.2497,  0.1068,  0.0684, -0.0162, -0.1032,  0.0418,  0.0529,
+           0.0357,  0.1604,  0.0693, -0.1543,  0.0950, -0.2301,  0.0634,
+          -0.1243, -0.0183, -0.2558,  0.2845]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(3)
+tensor([[[-0.2040, -0.0696, -0.0164, -0.0944,  0.0800, -0.2555,  0.0506,
+          -0.3103,  0.0008, -0.1857,  0.1148,  0.0726,  0.1139, -0.1720,
+          -0.1479,  0.2125,  0.0558, -0.0065,  0.0480,  0.1785, -0.0275,
+           0.1378,  0.1921,  0.0390, -0.2379,  0.0096, -0.2117,  0.0380,
+          -0.0776,  0.1536, -0.2271,  0.1683]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(14)
+tensor([[[-0.2950, -0.1547,  0.0061, -0.0321,  0.0745, -0.0565, -0.0371,
+          -0.0796, -0.0687, -0.0965, -0.1208,  0.0823, -0.0231, -0.0690,
+          -0.2301,  0.0576, -0.0108, -0.0886, -0.0102,  0.0460, -0.0515,
+           0.1929,  0.2991,  0.0369, -0.0241,  0.0499, -0.1958,  0.0411,
+          -0.0932, -0.0733, -0.1951,  0.2927]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(18)
+tensor([[[-0.2079, -0.1176, -0.0136,  0.0029,  0.0216, -0.0430, -0.0358,
+          -0.0492, -0.0069, -0.0959, -0.0848,  0.0644, -0.0509,  0.0353,
+          -0.3361,  0.1120,  0.0400, -0.1590,  0.0171,  0.0232, -0.0713,
+           0.1513,  0.2093, -0.0235,  0.0592,  0.0296, -0.1435,  0.1419,
+          -0.0780, -0.1211, -0.1495,  0.3294]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(21)
+tensor([[[-0.1919, -0.0163,  0.0150, -0.0636,  0.0448, -0.2027,  0.0991,
+          -0.2603, -0.0879, -0.2322,  0.0127, -0.0672,  0.1202, -0.2188,
+          -0.2059,  0.1851,  0.0744, -0.0308,  0.1111,  0.1154, -0.0306,
+           0.1254,  0.2423,  0.0639, -0.1513, -0.0564, -0.1098,  0.1273,
+          -0.0938,  0.0998, -0.2593,  0.2453]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(1)
+tensor([[[ 0.0506, -0.0288, -0.2119, -0.1279,  0.3112, -0.2983, -0.1437,
+          -0.3189,  0.0187, -0.2209,  0.4056,  0.0200,  0.1808, -0.0450,
+          -0.1991, -0.0424, -0.2035, -0.2393, -0.1851, -0.0593, -0.0526,
+           0.1821,  0.1713, -0.1402, -0.0507, -0.2145,  0.0543, -0.0327,
+           0.1919, -0.0038,  0.1305,  0.0133]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(5)
+tensor([[[-0.1412,  0.0345, -0.1016, -0.0533,  0.1192, -0.2472, -0.0642,
+          -0.3209, -0.0518, -0.2225,  0.1833,  0.0555,  0.1752, -0.0006,
+          -0.3257, -0.0494, -0.1861, -0.1693, -0.1781, -0.1915,  0.0779,
+           0.3120,  0.1047, -0.1011, -0.0215, -0.1445,  0.0347, -0.0331,
+           0.1705, -0.1081,  0.1033,  0.2215]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(6)
+tensor([[[-0.2133, -0.3561, -0.2360, -0.2763,  0.3350, -0.2695, -0.3693,
+          -0.3387,  0.0227, -0.1227,  0.3773,  0.1912,  0.0901,  0.0853,
+          -0.4114, -0.2548, -0.2624, -0.3295, -0.1802, -0.0443, -0.0171,
+           0.1682,  0.2748, -0.2109,  0.0233, -0.1677,  0.0627,  0.1176,
+          -0.0091, -0.2632,  0.1005,  0.2656]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(7)
+tensor([[[-0.2705, -0.3339, -0.2348, -0.2735,  0.1766, -0.3259, -0.3095,
+          -0.1073,  0.0657, -0.1371,  0.0445,  0.0922, -0.1369,  0.1720,
+          -0.4927, -0.2208, -0.1011, -0.1968, -0.2451, -0.0108,  0.1144,
+          -0.0169,  0.1687, -0.1549,  0.0348, -0.0493, -0.0515,  0.1902,
+          -0.1184, -0.3095, -0.0615,  0.4864]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(9)
+tensor([[[-0.1148, -0.1780, -0.2276, -0.2643,  0.2742, -0.1547, -0.2327,
+          -0.0321,  0.0296, -0.0331,  0.0624,  0.1745, -0.1663,  0.0816,
+          -0.4428, -0.0909, -0.1947, -0.2154, -0.2827, -0.1242,  0.0300,
+           0.1630,  0.2113, -0.1483,  0.1750, -0.0214, -0.1324,  0.1691,
+          -0.0292, -0.3669, -0.0982,  0.2210]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor(17)
+tensor([[[-0.1530, -0.4468, -0.3238, -0.2702,  0.2664, -0.4250, -0.3207,
+          -0.3532,  0.1417, -0.1522,  0.2189, -0.0102,  0.1021,  0.0133,
+          -0.3546, -0.2313, -0.1228, -0.3651, -0.1423,  0.0858, -0.0203,
+           0.0795,  0.3078, -0.0490, -0.0861, -0.1149,  0.0310,  0.1652,
+          -0.1936, -0.1249, -0.0118,  0.3018]]], grad_fn=<AddBackward0>)
+### arr_b_idx_i tensor([2, 2, 2, 2])
+tensor([[[nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+          nan, nan, nan, nan, nan, nan, nan, nan, nan],
+         [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+          nan, nan, nan, nan, nan, nan, nan, nan, nan],
+         [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+          nan, nan, nan, nan, nan, nan, nan, nan, nan],
+         [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan,
+          nan, nan, nan, nan, nan, nan, nan, nan, nan]]],
+       grad_fn=<AddBackward0>)

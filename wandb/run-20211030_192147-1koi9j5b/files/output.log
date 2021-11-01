@@ -1,0 +1,143 @@
+
+CUDA availability: True
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 48, in train
+    loss, timing_loss, choice_loss  = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 195, in forward
+    event_choice_loss = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)*1000
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 355, in forward
+    choice_l = F.binary_cross_entropy(torch.sigmoid(logits_i), true_tar_idxs_i)  # inputs are both (N_i_2, N_i_1)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 2759, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: all elements of input should be between 0 and 1
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 2])
+tensor([[[-0.0148,  0.0249,  0.0264,  ...,  0.0027,  0.0189, -0.0067],
+         [-0.0562, -0.0374, -0.0215,  ..., -0.0374, -0.0254, -0.0394]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 2])
+tensor([[[ 0.0089,  0.0045, -0.0285,  ...,  0.0045, -0.0247, -0.0144],
+         [ 0.0342,  0.0436,  0.0100,  ...,  0.0487,  0.0150,  0.0315]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[ 0.0206, -0.0254, -0.0137,  ...,  0.0059,  0.0261, -0.0226]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[ 0.0678,  0.0604,  0.0056,  ...,  0.0143,  0.0017, -0.0550]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-0.0664, -0.0017, -0.0673,  ..., -0.0262, -0.0406, -0.0427]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[ 0.0304, -0.0436,  0.0153,  ...,  0.0012,  0.0135, -0.0159]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-0.5222, -0.5775, -0.4118,  ..., -0.4723, -0.6107, -0.5723]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 5])
+tensor([[[-0.4349, -0.6346, -0.3965,  ..., -0.5366, -0.5357, -0.4460],
+         [-0.3255, -0.5092, -0.2997,  ..., -0.4122, -0.3930, -0.3033],
+         [-0.4329, -0.6336, -0.4119,  ..., -0.4835, -0.4552, -0.3740],
+         [-0.4517, -0.6618, -0.4191,  ..., -0.5446, -0.5384, -0.4475],
+         [-0.4760, -0.7213, -0.4355,  ..., -0.6074, -0.6051, -0.4656]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-0.7203, -0.5850, -0.6621,  ..., -0.7093, -0.7332, -0.6089]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-0.2975, -0.4809, -0.3973,  ..., -0.5244, -0.5099, -0.4370]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-0.5875, -0.6194, -0.4577,  ..., -0.5383, -0.5214, -0.4846]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-0.4610, -0.4790, -0.5841,  ..., -0.5193, -0.4995, -0.4456]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-0.6673, -0.6878, -0.6491,  ..., -0.6926, -0.7596, -0.6617]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-1.4281, -1.7577, -2.0767,  ..., -1.3759, -1.6716, -2.0851]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-1.8728, -1.7849, -2.1141,  ..., -1.5380, -1.7678, -2.0144]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-1.7087, -1.5149, -1.7067,  ..., -1.4463, -1.6542, -1.4931]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-2.0554, -2.0584, -2.1272,  ..., -1.8594, -1.9725, -1.8165]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-1.5528, -1.9567, -1.8472,  ..., -1.9945, -1.7950, -2.1545]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 1])
+tensor([[[-2.0606, -1.9640, -1.6181,  ..., -1.5495, -1.8369, -1.8872]]],
+       grad_fn=<SumBackward1>)
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 0])
+### arr_b_idx_i torch.Size([1, 2])
+tensor([[[nan, nan, nan,  ..., nan, nan, nan],
+         [nan, nan, nan,  ..., nan, nan, nan]]], grad_fn=<SumBackward1>)

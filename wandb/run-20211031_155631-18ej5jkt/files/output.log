@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "main.py", line 7, in <module>
+    from model import MAPredNet
+  File "/home/dalab5/Projects/MA_packed/model.py", line 243
+    arr_b_idx.to(device), arr_c_idx.to(device), arr_delta_t.to(device) = event_data # expand
+    ^
+SyntaxError: cannot assign to function call

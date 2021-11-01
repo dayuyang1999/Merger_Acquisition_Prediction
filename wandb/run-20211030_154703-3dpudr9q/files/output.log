@@ -1,0 +1,22 @@
+CUDA availability: True
+phi= tensor([1.3994], grad_fn=<AbsBackward>)
+phi= tensor([1.3994], grad_fn=<AbsBackward>)
+tensor([[1.4782, 2.0612, 1.4963, 2.0718]], grad_fn=<MulBackward0>)
+tensor(2.2456, grad_fn=<SumBackward0>)
+Epoch 0. Total Loss: 4273758.6062. Timing MLE loss: 4273756.4676. Choice BCE loss 2.1386
+phi= tensor([1.3994], grad_fn=<AbsBackward>)
+phi= tensor([1.3994], grad_fn=<AbsBackward>)
+tensor([[0.6214, 0.8354, 0.5498, 0.4829]], grad_fn=<MulBackward0>)
+tensor(-1.9820, grad_fn=<SumBackward0>)
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 50, in train
+    loss.backward()
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: Trying to backward through the graph a second time, but the saved intermediate results have already been freed. Specify retain_graph=True when calling .backward() or autograd.grad() the first time.

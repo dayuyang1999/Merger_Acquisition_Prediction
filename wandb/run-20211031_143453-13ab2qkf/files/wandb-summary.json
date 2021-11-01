@@ -1,0 +1,1 @@
+{"total loss": 16843.963404590977, "pos timing loss": -2579.857013502429, "neg timing loss": 8286.31575308781, "training choice loss": 11137.504665005592, "_runtime": 939, "_timestamp": 1635706232, "_step": 9, "_wandb": {"runtime": 941}}

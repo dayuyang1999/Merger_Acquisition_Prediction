@@ -1,0 +1,91 @@
+
+CUDA availability: True
+### event lambdas:  tensor([[ 3.0477],
+        [ 2.8757],
+        [11.1023],
+        [ 6.5479],
+        [21.4541]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-0.9781],
+        [-0.3903],
+        [-0.9272],
+        [ 3.0131],
+        [-0.5546],
+        [-0.9057],
+        [ 1.4127],
+        [ 0.1017],
+        [-0.7971]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-1.1645],
+        [ 1.8396],
+        [ 1.2977],
+        [ 3.6971],
+        [-0.3399],
+        [ 1.8004],
+        [-2.9130]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-1.8361],
+        [-1.2349],
+        [-3.4423],
+        [-3.9184],
+        [-4.1996],
+        [-4.3716],
+        [-3.0928],
+        [-4.4181]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-5.6048],
+        [-7.3757],
+        [-6.6457],
+        [-6.9205],
+        [-9.0785]], grad_fn=<AddmmBackward>)
+  2%|████▏                                                                                                                                                                                                           | 10/496 [00:02<01:53,  4.28it/s]
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 84, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+### event lambdas:  tensor([[ -7.8070],
+        [ -7.7638],
+        [ -6.1122],
+        [ -8.0981],
+        [-10.5468],
+        [ -4.7966],
+        [ -7.5786],
+        [ -9.3316],
+        [ -9.2055],
+        [ -8.6297],
+        [-12.9930],
+        [  0.9496]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[ -8.5148],
+        [-10.7334],
+        [-11.6448],
+        [-13.2823],
+        [-17.7739],
+        [-19.0687]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-16.0742],
+        [-20.2539],
+        [-16.5559],
+        [-16.2896],
+        [-11.1125]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-16.1111],
+        [-18.2420],
+        [-18.4314],
+        [-21.2696],
+        [-22.9628],
+        [-22.9462],
+        [-22.3053],
+        [-30.7724],
+        [-22.6426]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-21.4057],
+        [-27.2393],
+        [-29.8889],
+        [-29.3015],
+        [-29.1513]], grad_fn=<AddmmBackward>)
+### event lambdas:  tensor([[-35.8736],
+        [-34.3980],
+        [-44.2852],
+        [-50.5594],
+        [-41.7039]], grad_fn=<AddmmBackward>)

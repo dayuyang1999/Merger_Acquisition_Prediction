@@ -1,0 +1,13 @@
+/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py:1709: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    main()
+  File "main.py", line 84, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 54, in train
+    choice_loss_e += choice_loss.detach().numpy()[0]
+IndexError: too many indices for array: array is 0-dimensional, but 1 were indexed
+CUDA availability: True
+torch.Size([1, 4, 32])
+torch.Size([1, 640, 32])

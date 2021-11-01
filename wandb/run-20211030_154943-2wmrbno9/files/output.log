@@ -1,0 +1,144 @@
+CUDA availability: True
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.6173, 1.1801, 1.1020, 1.2334]], grad_fn=<MulBackward0>)
+tensor(0.9533, grad_fn=<SumBackward0>)
+Epoch 0. Total Loss: 1138312.2334. Timing MLE loss: 1138310.0254. Choice BCE loss 2.2080
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.8420, 0.5782, 0.5293, 0.4627]], grad_fn=<MulBackward0>)
+tensor(-2.1266, grad_fn=<SumBackward0>)
+Epoch 1. Total Loss: 614680.5411. Timing MLE loss: 614678.9310. Choice BCE loss 1.6102
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.2860, 0.1683, 0.1549, 0.1146]], grad_fn=<MulBackward0>)
+tensor(-7.0651, grad_fn=<SumBackward0>)
+Epoch 2. Total Loss: 255043.2254. Timing MLE loss: 255042.3102. Choice BCE loss 0.9152
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.1447, 0.0427, 0.0419, 0.0396]], grad_fn=<MulBackward0>)
+tensor(-11.4897, grad_fn=<SumBackward0>)
+Epoch 3. Total Loss: 88889.2669. Timing MLE loss: 88889.0680. Choice BCE loss 0.1989
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 48, in train
+    loss, timing_loss, choice_loss  = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 191, in forward
+    event_choice_loss = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 342, in forward
+    choice_l = self.loss(torch.sigmoid(logits_i), true_tar_idxs_i)  # inputs are both (N_i_2, N_i_1)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 613, in forward
+    return F.binary_cross_entropy(input, target, weight=self.weight, reduction=self.reduction)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 2759, in binary_cross_entropy
+    return torch._C._nn.binary_cross_entropy(input, target, weight, reduction_enum)
+RuntimeError: all elements of input should be between 0 and 1
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.0253, 0.0328, 0.0338, 0.0068]], grad_fn=<MulBackward0>)
+tensor(-15.4731, grad_fn=<SumBackward0>)
+Epoch 4. Total Loss: 17799.6029. Timing MLE loss: 17799.5970. Choice BCE loss 0.0059
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.0097, 0.0049, 0.0054, 0.0117]], grad_fn=<MulBackward0>)
+tensor(-19.6239, grad_fn=<SumBackward0>)
+Epoch 5. Total Loss: 6200.9386. Timing MLE loss: 6200.9296. Choice BCE loss 0.0090
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.0031, 0.0012, 0.0014, 0.0007]], grad_fn=<MulBackward0>)
+tensor(-26.2429, grad_fn=<SumBackward0>)
+Epoch 6. Total Loss: 734.7772. Timing MLE loss: 734.7597. Choice BCE loss 0.0174
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.0009, 0.0003, 0.0003, 0.0007]], grad_fn=<MulBackward0>)
+tensor(-30.5578, grad_fn=<SumBackward0>)
+Epoch 7. Total Loss: 272.2857. Timing MLE loss: 272.2578. Choice BCE loss 0.0279
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[0.0007, 0.0002, 0.0002, 0.0007]], grad_fn=<MulBackward0>)
+tensor(-31.2891, grad_fn=<SumBackward0>)
+Epoch 8. Total Loss: 153.7240. Timing MLE loss: 153.6894. Choice BCE loss 0.0346
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.3226e-04, 7.7914e-05, 9.0125e-05, 8.8921e-05]],
+       grad_fn=<MulBackward0>)
+tensor(-37.0327, grad_fn=<SumBackward0>)
+Epoch 9. Total Loss: 81.0543. Timing MLE loss: 81.0072. Choice BCE loss 0.0471
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[5.9683e-05, 5.8135e-05, 6.6047e-05, 2.2152e-04]],
+       grad_fn=<MulBackward0>)
+tensor(-37.5194, grad_fn=<SumBackward0>)
+Epoch 10. Total Loss: 59.8325. Timing MLE loss: 59.7831. Choice BCE loss 0.0494
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.5480e-05, 2.2188e-05, 2.4768e-05, 1.8748e-05]],
+       grad_fn=<MulBackward0>)
+tensor(-43.2823, grad_fn=<SumBackward0>)
+Epoch 11. Total Loss: 59.3346. Timing MLE loss: 59.2831. Choice BCE loss 0.0515
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.3244e-05, 5.5211e-05, 6.0715e-05, 9.1160e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-42.3511, grad_fn=<SumBackward0>)
+Epoch 12. Total Loss: 47.1791. Timing MLE loss: 47.1247. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[2.5800e-06, 5.6243e-05, 6.0887e-05, 6.7080e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-44.2722, grad_fn=<SumBackward0>)
+Epoch 13. Total Loss: 46.2856. Timing MLE loss: 46.2313. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[3.7840e-06, 6.8800e-07, 6.8800e-07, 3.4400e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-55.7463, grad_fn=<SumBackward0>)
+Epoch 14. Total Loss: 56.8858. Timing MLE loss: 56.8315. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.3072e-05, 3.0960e-06, 3.2680e-06, 5.1600e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-51.0389, grad_fn=<SumBackward0>)
+Epoch 15. Total Loss: 51.6632. Timing MLE loss: 51.6089. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.0148e-05, 5.1600e-07, 5.1600e-07, 1.7200e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-56.0283, grad_fn=<SumBackward0>)
+Epoch 16. Total Loss: 56.4009. Timing MLE loss: 56.3466. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[5.1600e-07, 1.1008e-05, 1.1524e-05, 1.7200e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-52.8409, grad_fn=<SumBackward0>)
+Epoch 17. Total Loss: 53.2448. Timing MLE loss: 53.1904. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[5.1600e-07, 3.4400e-07, 3.4400e-07, 1.7200e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-59.8182, grad_fn=<SumBackward0>)
+Epoch 18. Total Loss: 59.9951. Timing MLE loss: 59.9408. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.7200e-07, 5.1600e-07, 5.1600e-07, 1.5480e-06]],
+       grad_fn=<MulBackward0>)
+tensor(-57.9086, grad_fn=<SumBackward0>)
+Epoch 19. Total Loss: 58.0973. Timing MLE loss: 58.0430. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[1.4620e-05, 0.0000e+00, 0.0000e+00, 3.4400e-07]],
+       grad_fn=<MulBackward0>)
+tensor(-inf, grad_fn=<SumBackward0>)
+Epoch 20. Total Loss: inf. Timing MLE loss: inf. Choice BCE loss 0.0543
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+phi= tensor([1.4428], grad_fn=<AbsBackward>)
+tensor([[nan, nan, nan, nan]], grad_fn=<MulBackward0>)
+tensor(nan, grad_fn=<SumBackward0>)

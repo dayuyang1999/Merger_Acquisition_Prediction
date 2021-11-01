@@ -1,0 +1,19 @@
+
+CUDA availability: True
+  0%|                                                                                                                                                                                                                         | 0/496 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 154, in <module>
+    main()
+  File "main.py", line 150, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 107, in train
+    loss, pos_timing_loss, neg_timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 183, in forward
+    event_lambdas = self.timing_net(mat_b, mat_c, event_data) # (L3, )
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 244, in forward
+    b = torch.index_select(mat_b, 1, arr_b_idx[0]) # (L3, embedding_b)
+RuntimeError: Input, output and indices must be on the current device

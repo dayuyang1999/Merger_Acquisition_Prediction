@@ -1,0 +1,35 @@
+
+CUDA availability: True
+  1%|█▏                                                                                                                                             | 4/496 [00:00<01:32,  5.32it/s]
+torch.Size([1, 4])
+torch.Size([1, 40])
+torch.Size([1, 6])
+torch.Size([1, 60])
+torch.Size([1, 6])
+torch.Size([1, 60])
+torch.Size([1, 9])
+torch.Size([1, 90])
+torch.Size([1, 4])
+  2%|██▌                                                                                                                                            | 9/496 [00:02<02:30,  3.24it/s]
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 84, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt
+torch.Size([1, 5])
+torch.Size([1, 50])
+torch.Size([1, 21])
+torch.Size([1, 210])
+torch.Size([1, 5])
+torch.Size([1, 50])
+torch.Size([1, 11])
+torch.Size([1, 110])
+torch.Size([1, 29])
+torch.Size([1, 290])

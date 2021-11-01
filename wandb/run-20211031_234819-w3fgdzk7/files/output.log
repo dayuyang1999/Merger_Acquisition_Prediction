@@ -1,0 +1,238 @@
+
+CUDA availability: True
+  1%|█▋                                                                                                                                              | 6/496 [00:01<01:34,  5.20it/s]
+### event lambdas:  tensor([[0.0468, 0.0734, 0.1617, 0.0667, 0.1073, 0.2244, 0.1943]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(15.5689, grad_fn=<NegBackward>) non event loss:  tensor([74879.1226], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(4.8346, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[0.0046, 0.0046, 0.0054, 0.0035, 0.0053, 0.0066, 0.0069, 0.0099, 0.0105,
+         0.0125, 0.0080, 0.0062]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(60.3288, grad_fn=<NegBackward>) non event loss:  tensor([2834.6918], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(2.9843, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[0.0007, 0.0055, 0.0008, 0.0008, 0.0006, 0.0023, 0.0014, 0.0011, 0.0009,
+         0.0013]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(67.3203, grad_fn=<NegBackward>) non event loss:  tensor([654.6892], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.9280, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[0.0007, 0.0005, 0.0009, 0.0004, 0.0002, 0.0007, 0.0002, 0.0002, 0.0012,
+         0.0006, 0.0010, 0.0006, 0.0003, 0.0005, 0.0004, 0.0046]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(119.3082, grad_fn=<NegBackward>) non event loss:  tensor([354.8110], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0952, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.4709e-04, 2.0503e-04, 1.2192e-04, 1.1635e-04, 2.9252e-05, 7.8490e-05,
+         1.2720e-04, 8.0832e-05, 6.7570e-05]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(82.1634, grad_fn=<NegBackward>) non event loss:  tensor([60.6592], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0176, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[6.3806e-05, 9.1478e-05, 3.6367e-05, 4.4924e-05, 2.4673e-05, 3.1764e-05,
+         5.2868e-05]], grad_fn=<SoftplusBackward>)
+
+  3%|████▉                                                                                                                                          | 17/496 [00:03<01:09,  6.86it/s]
+### event lambdas:  tensor([[1.5127e-04, 3.0739e-05, 6.7069e-05, 1.0855e-05, 9.0720e-06, 9.6325e-06,
+         2.1188e-05, 1.1538e-05, 1.1676e-05]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(96.8776, grad_fn=<NegBackward>) non event loss:  tensor([13.1924], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0416, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[9.9798e-05, 7.2063e-06, 5.9785e-05, 4.0664e-06, 6.9384e-06, 1.3536e-05,
+         8.5098e-06]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(77.9533, grad_fn=<NegBackward>) non event loss:  tensor([6.9316], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0574, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.5740e-05, 1.3384e-05, 1.2056e-05, 5.0881e-06, 5.1920e-06, 1.0869e-06,
+         2.6442e-06, 4.5391e-06, 3.3865e-06]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(109.4376, grad_fn=<NegBackward>) non event loss:  tensor([4.8054], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0917, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.3678e-05, 6.0111e-06, 1.9393e-06, 2.5536e-06, 1.0227e-06, 3.1416e-06]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(75.7167, grad_fn=<NegBackward>) non event loss:  tensor([0.4869], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0465, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[6.8144e-06, 7.5880e-06, 5.5154e-07, 4.0164e-07, 1.5642e-06]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(66.1918, grad_fn=<NegBackward>) non event loss:  tensor([0.6925], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0610, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[5.2380e-06, 3.8716e-06, 5.0651e-06, 9.0611e-07, 1.0322e-06, 1.0460e-06]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(78.2830, grad_fn=<NegBackward>) non event loss:  tensor([0.6395], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0938, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.7026e-06, 1.4486e-06, 5.8678e-07, 7.7056e-07]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(54.6910, grad_fn=<NegBackward>) non event loss:  tensor([0.5766], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0682, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.0058e-06, 1.9037e-06, 6.2283e-06, 9.8490e-07, 4.5414e-07, 8.4457e-07]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(80.6976, grad_fn=<NegBackward>) non event loss:  tensor([0.1651], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0552, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.2349e-07, 3.4351e-06, 4.0878e-07, 6.9888e-08, 3.1459e-07]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(73.4147, grad_fn=<NegBackward>) non event loss:  tensor([0.0905], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0756, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.5946e-06, 2.1158e-07, 1.9136e-07, 1.7706e-07]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(59.2466, grad_fn=<NegBackward>) non event loss:  tensor([0.0552], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0543, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.8644e-06, 3.9993e-07, 2.4628e-06, 1.3345e-07, 3.0232e-08, 1.0065e-07,
+         1.2322e-07]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(105.0445, grad_fn=<NegBackward>) non event loss:  tensor([0.1507], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1094, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[5.4164e-07, 1.8292e-07, 1.3009e-07, 8.7054e-08, 1.7700e-08]],
+
+  6%|████████▋                                                                                                                                      | 30/496 [00:05<01:17,  5.99it/s]
+##### event loss: tensor(79.9044, grad_fn=<NegBackward>) non event loss:  tensor([0.0399], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0862, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[3.3977e-07, 2.7913e-07, 4.3490e-07, 3.3265e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(61.8535, grad_fn=<NegBackward>) non event loss:  tensor([0.0330], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0621, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.0236e-06, 5.8114e-07, 1.6278e-07, 1.9831e-08, 3.4429e-08, 1.8879e-07,
+         5.8664e-07, 1.3792e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(126.6325, grad_fn=<NegBackward>) non event loss:  tensor([0.0580], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0772, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.7338e-06, 4.2389e-07, 2.8740e-07, 2.4648e-07, 9.1300e-08, 7.7942e-08,
+         1.2217e-07, 4.7205e-08, 5.1405e-08, 2.1474e-08, 1.4005e-08, 8.8790e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(192.3411, grad_fn=<NegBackward>) non event loss:  tensor([0.0816], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1773, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.8369e-07, 2.0315e-07, 5.2932e-08, 2.1160e-08, 8.7881e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(81.5920, grad_fn=<NegBackward>) non event loss:  tensor([0.0329], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0785, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[3.1601e-07, 1.1863e-07, 2.7706e-07]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(46.0138, grad_fn=<NegBackward>) non event loss:  tensor([0.0282], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0529, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.3284e-07, 8.7909e-08, 3.3801e-08, 3.4523e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(66.4655, grad_fn=<NegBackward>) non event loss:  tensor([0.0063], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0419, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.9206e-07, 1.8049e-08, 2.1996e-08, 3.2432e-07, 7.2871e-08, 7.3069e-09,
+         3.0057e-08, 2.1185e-08, 1.5337e-08, 4.5574e-08, 1.9108e-08, 3.6793e-08,
+         7.7249e-08, 4.3162e-08, 1.3483e-08, 2.4293e-07, 3.4483e-08, 1.6040e-08,
+         1.5807e-08, 1.2817e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(343.7699, grad_fn=<NegBackward>) non event loss:  tensor([0.0212], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1938, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[7.6740e-07, 1.6806e-07, 4.9147e-08, 3.8663e-08, 1.0057e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(81.9910, grad_fn=<NegBackward>) non event loss:  tensor([0.0190], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0778, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.7482e-07, 5.0123e-08, 8.0992e-08, 2.7074e-08, 4.1766e-08, 5.2911e-08,
+         4.2490e-08, 3.6732e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(133.5090, grad_fn=<NegBackward>) non event loss:  tensor([0.0282], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1206, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.3044e-06, 1.3362e-06, 9.9220e-07, 1.2172e-07, 5.9006e-08, 2.7587e-09,
+         4.1950e-09, 5.7785e-09, 2.0445e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(149.1385, grad_fn=<NegBackward>) non event loss:  tensor([0.0166], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1177, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.7356e-07, 1.4253e-07, 5.4335e-08, 1.6331e-08, 2.1272e-08, 2.0892e-08,
+         2.5758e-08, 2.8558e-08, 1.0010e-07, 7.7779e-08, 4.4986e-09, 3.6531e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(205.0155, grad_fn=<NegBackward>) non event loss:  tensor([0.0187], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1512, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.6378e-07, 3.5760e-07, 3.3137e-07, 1.1948e-06, 1.4233e-07, 5.7884e-08,
+         4.1024e-07, 2.9831e-08, 1.7590e-08, 1.9225e-08, 1.5271e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(176.0698, grad_fn=<NegBackward>) non event loss:  tensor([0.0201], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1108, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.1171e-08, 1.1017e-08, 3.0970e-08, 2.1174e-08, 3.0213e-08, 2.4042e-08,
+         2.2283e-08, 1.5474e-08, 2.8777e-08, 1.4757e-08]],
+
+  9%|████████████▍                                                                                                                                  | 43/496 [00:07<01:11,  6.33it/s]
+##### event loss: tensor(176.8125, grad_fn=<NegBackward>) non event loss:  tensor([0.0174], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1799, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.3079e-08, 2.0398e-07, 3.3566e-08, 2.4351e-08, 3.7854e-08, 3.6773e-09,
+         4.6069e-09]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(124.0042, grad_fn=<NegBackward>) non event loss:  tensor([0.0151], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0980, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.2041e-07, 8.9481e-08, 1.5736e-08, 7.5919e-09, 7.3756e-09, 1.1971e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(105.1864, grad_fn=<NegBackward>) non event loss:  tensor([0.0086], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0989, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.3700e-07, 1.8223e-07, 8.6161e-08, 2.4110e-08, 2.3575e-08, 5.2452e-09,
+         1.6391e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(118.5246, grad_fn=<NegBackward>) non event loss:  tensor([0.0194], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1304, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.3459e-08, 1.0615e-08, 1.3010e-07, 1.6701e-08, 3.0288e-08, 3.1099e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(103.6738, grad_fn=<NegBackward>) non event loss:  tensor([0.0003], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0278, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.1506e-07, 3.7270e-08, 2.0610e-08, 6.3786e-08, 2.8561e-08, 2.0460e-08,
+         2.1011e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(119.4769, grad_fn=<NegBackward>) non event loss:  tensor([0.0261], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1269, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.2825e-07, 1.0205e-07, 3.9192e-08, 3.1970e-08, 3.9619e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(83.3243, grad_fn=<NegBackward>) non event loss:  tensor([0.0164], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1050, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.8629e-07, 7.9564e-08, 5.2735e-09, 3.7168e-08, 2.3652e-08, 1.9914e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(103.3027, grad_fn=<NegBackward>) non event loss:  tensor([0.0438], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1282, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[8.1858e-08, 1.9161e-07, 4.0915e-08, 4.8313e-08, 4.3031e-08, 2.3155e-08,
+         8.0444e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(116.5215, grad_fn=<NegBackward>) non event loss:  tensor([0.0181], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0782, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[5.5637e-08, 3.0270e-08, 1.9050e-08, 1.5462e-08, 1.4088e-08, 1.2566e-08,
+         1.9744e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(123.7892, grad_fn=<NegBackward>) non event loss:  tensor([0.0186], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1052, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[6.6905e-08, 7.6306e-08, 3.7693e-08, 2.2543e-08, 2.9741e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(84.9409, grad_fn=<NegBackward>) non event loss:  tensor([0.0076], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0303, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[6.2848e-07, 1.2336e-07, 8.9567e-08, 7.5334e-08, 2.7098e-08, 6.0728e-09,
+         2.2618e-08, 7.0124e-09]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(135.5410, grad_fn=<NegBackward>) non event loss:  tensor([0.0134], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1350, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[7.6045e-08, 3.2809e-08, 9.7091e-09, 2.0805e-08, 2.2970e-09, 1.8745e-08,
+         1.4470e-08, 1.8162e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(143.3219, grad_fn=<NegBackward>) non event loss:  tensor([0.0263], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1590, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[6.7693e-08, 3.2819e-07, 1.1109e-08, 1.7229e-08, 1.0228e-08]],
+       grad_fn=<SoftplusBackward>)
+
+ 11%|███████████████▊                                                                                                                               | 55/496 [00:09<01:20,  5.49it/s]
+### event lambdas:  tensor([[2.6427e-09, 5.3170e-09, 1.8476e-08, 2.5678e-08, 1.5237e-07, 6.7660e-08,
+         1.5439e-08, 2.6451e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(141.7283, grad_fn=<NegBackward>) non event loss:  tensor([0.0048], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1421, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[3.2998e-09, 5.6160e-09, 3.9449e-09, 2.4685e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(75.3949, grad_fn=<NegBackward>) non event loss:  tensor([0.0170], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0668, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[3.2950e-07, 1.8292e-07, 3.1573e-08, 1.2662e-08, 4.8633e-09, 4.0782e-09,
+         3.9653e-09, 1.4251e-08, 3.0369e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(159.0766, grad_fn=<NegBackward>) non event loss:  tensor([0.0238], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1731, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.3127e-08, 3.1706e-08, 3.5784e-08, 2.1162e-08, 4.6053e-09, 2.9572e-09,
+         6.1174e-09, 5.3721e-09, 7.8059e-09, 3.4098e-08, 2.8192e-08, 2.6891e-08,
+         9.8287e-08, 3.1321e-08, 2.1317e-08, 2.2907e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(285.8031, grad_fn=<NegBackward>) non event loss:  tensor([0.0461], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.2232, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[3.3824e-08, 1.8327e-08, 2.9905e-08, 2.9843e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(69.6695, grad_fn=<NegBackward>) non event loss:  tensor([0.0117], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0654, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[7.0358e-08, 8.1522e-08, 4.8403e-08, 4.2257e-08, 3.4752e-08, 2.6632e-07,
+         1.1937e-08, 1.6393e-08, 2.8511e-09, 1.4807e-08, 5.5089e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(189.5169, grad_fn=<NegBackward>) non event loss:  tensor([0.0307], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1374, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[7.5551e-08, 5.3508e-08, 6.6223e-09, 1.1370e-08, 2.2589e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(87.8729, grad_fn=<NegBackward>) non event loss:  tensor([0.0057], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1045, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.1126e-08, 2.2793e-08, 2.0674e-08, 2.2964e-08, 4.7406e-09, 2.6778e-08,
+         4.7348e-08, 7.9733e-09]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(143.3103, grad_fn=<NegBackward>) non event loss:  tensor([0.0142], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1493, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[3.0408e-07, 6.5574e-08, 3.4419e-08, 8.8184e-08, 2.6581e-08, 1.8513e-08,
+         1.1532e-08, 6.8998e-09]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(137.2923, grad_fn=<NegBackward>) non event loss:  tensor([0.0124], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1342, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.8050e-08, 4.4981e-08, 8.9046e-08, 4.5846e-09, 4.9200e-09, 1.6077e-08,
+         1.1048e-08, 3.0699e-08, 2.2073e-08, 2.3801e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(177.0810, grad_fn=<NegBackward>) non event loss:  tensor([0.0133], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1826, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.5853e-07, 3.0262e-08, 2.4293e-09, 3.6219e-09, 2.4517e-08, 1.9156e-08,
+         1.2712e-08, 1.8185e-08]], grad_fn=<SoftplusBackward>)
+
+ 14%|███████████████████▌                                                                                                                           | 68/496 [00:11<01:03,  6.75it/s]
+### event lambdas:  tensor([[4.4897e-08, 7.7466e-08, 6.5565e-07, 3.3327e-09, 3.0522e-09, 1.1243e-08,
+         1.5842e-08, 8.6945e-09, 1.0810e-08, 1.2296e-08, 1.5342e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(196.0310, grad_fn=<NegBackward>) non event loss:  tensor([0.0152], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1715, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.0626e-07, 2.9510e-08, 3.2652e-08, 1.3753e-08, 2.1656e-08, 9.8438e-09]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(104.8197, grad_fn=<NegBackward>) non event loss:  tensor([0.0043], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0653, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.3595e-07, 6.2825e-08, 2.8134e-08, 3.2515e-09, 3.3476e-09, 3.6396e-09,
+         1.2903e-08, 2.7249e-08, 1.6340e-08, 2.1419e-08, 3.1069e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(195.5652, grad_fn=<NegBackward>) non event loss:  tensor([0.0291], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1756, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.0854e-08, 2.9576e-08, 3.2998e-08, 3.4398e-08, 2.9116e-08, 7.4674e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(102.5238, grad_fn=<NegBackward>) non event loss:  tensor([0.0082], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1131, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.6331e-07, 1.1294e-07, 1.5924e-08, 1.5477e-08, 2.0187e-08, 1.7695e-08,
+         1.9321e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(120.8936, grad_fn=<NegBackward>) non event loss:  tensor([0.0109], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0803, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[3.3829e-08, 3.1851e-08, 3.6665e-08, 9.0668e-09, 1.2279e-08, 8.2755e-09]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(106.9295, grad_fn=<NegBackward>) non event loss:  tensor([0.0076], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0873, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.7724e-07, 1.5091e-07, 1.5275e-07, 1.0922e-08, 9.8350e-09, 3.3336e-09,
+         1.0480e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(121.6096, grad_fn=<NegBackward>) non event loss:  tensor([0.0269], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0949, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.9964e-07, 5.3439e-07, 2.7536e-08, 2.2388e-08, 1.1849e-08, 1.7761e-08,
+         1.4213e-07, 4.1541e-09, 1.6199e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(153.9927, grad_fn=<NegBackward>) non event loss:  tensor([0.0164], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1431, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[4.0214e-07, 5.9682e-08, 7.2677e-08, 5.9977e-08, 1.9748e-08, 2.4973e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(99.6729, grad_fn=<NegBackward>) non event loss:  tensor([0.0128], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0683, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.7997e-07, 6.7085e-08, 4.3042e-08, 2.9697e-08, 2.4237e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(83.4346, grad_fn=<NegBackward>) non event loss:  tensor([0.0208], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1015, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.7872e-08, 6.4239e-09, 3.7551e-09, 1.8799e-08, 3.5121e-08]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(90.6129, grad_fn=<NegBackward>) non event loss:  tensor([0.0312], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0895, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[5.8103e-08, 1.3343e-08, 4.0230e-08, 2.8903e-08, 3.9138e-08, 7.5357e-09,
+         5.4284e-09, 2.6777e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(141.4084, grad_fn=<NegBackward>) non event loss:  tensor([0.0277], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.1400, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[1.8328e-07, 2.0762e-07, 4.7678e-08, 3.9703e-08, 3.5896e-08, 1.3837e-08,
+         1.8824e-08, 3.4566e-08]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(135.0076, grad_fn=<NegBackward>) non event loss:  tensor([0.0212], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0813, grad_fn=<SumBackward0>)
+### event lambdas:  tensor([[2.5776e-07, 4.7037e-08, 3.9721e-08, 4.3416e-08]],
+ 15%|█████████████████████                                                                                                                          | 73/496 [00:12<01:09,  6.04it/s]
+Traceback (most recent call last):
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 110, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt

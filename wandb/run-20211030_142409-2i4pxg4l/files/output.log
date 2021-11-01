@@ -1,0 +1,33 @@
+CUDA availability: True
+tensor([[-34979.8711,  72899.2422,  72899.2422, -44391.2812]],
+       grad_fn=<ViewBackward>)
+tensor([[-35022.7635,  72495.2786,  72901.7640, -46512.7842]],
+       dtype=torch.float64, grad_fn=<AddBackward0>)
+tensor([[ -57866.4375,   -2114.3281, -256569.9062,   72899.2344,  -33369.1719,
+           91878.2188,  -33369.1719,   91878.2188, -137497.1250,  -34979.8828,
+          -77415.2812,  -74010.7031,  -33369.1719,   -2114.3281,  -34979.8828,
+          -34979.8828,  -33369.1719,  -77415.2812, -256569.9062, -170904.0469,
+           91878.2188,  -57866.4375,   91878.2188,  -44391.2812,  -64337.5469,
+          -34979.8828, -197385.6875,  -77415.2812,  -44391.2812,   -5677.3516,
+          -57866.4375,   91878.2188,   91878.2188,  -34979.8828, -197385.6875,
+          -34979.8828,  -74010.7031,    5376.5469,   -5677.3516,  -46920.5312]],
+       grad_fn=<ViewBackward>)
+tensor([[ -7.8484e+66,  -4.0114e+97, -2.4946e+154,  -9.0892e+19,  -4.4652e+27,
+          -1.3033e+31,  -4.9365e+29,  -2.1354e+25,  -3.7321e+73,  -1.5148e+28,
+          -3.0074e+09,  -1.3294e+15,  -4.5668e+30,  -5.7739e+54,  -4.5156e+26,
+          -8.5989e+40,  -4.7797e+24,  -1.0104e+17, -1.4065e+183,  -3.2918e+11,
+          -5.4428e+76,  -2.0536e+46,  -2.8215e+89, -1.1647e+243,  -1.7906e+92,
+          -1.9444e+15,  -2.6179e+29,  -3.8603e+11,  -4.4433e+04,  -6.5746e+09,
+          -4.6402e+64,  -2.1108e+39,  -3.3923e+29,  -6.2391e+33,  -8.8245e+59,
+          -1.3830e+35,  -1.0744e+05,  -2.6979e+91,  -5.8664e+03,  -3.3107e+32]],
+       dtype=torch.float64, grad_fn=<AddBackward0>)
+/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py:1709: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    main()
+  File "main.py", line 84, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 54, in train
+    choice_loss_e += choice_loss.detach().numpy()[0]
+IndexError: too many indices for array: array is 0-dimensional, but 1 were indexed

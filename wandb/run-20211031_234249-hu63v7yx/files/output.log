@@ -1,0 +1,64 @@
+
+CUDA availability: True
+##### :  torch.Size([1, 4, 1])
+##### :  torch.Size([1, 40, 1])
+### event lambdas:  tensor([[[5.3474, 5.5227, 5.8373, 5.5418]],
+        [[4.9655, 5.1405, 5.4545, 5.1595]],
+        [[5.3624, 5.5378, 5.8524, 5.5569]],
+        [[4.4211, 4.5953, 4.9082, 4.6143]]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(-26.4434, grad_fn=<NegBackward>) non event loss:  tensor([1421777.5070], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(2.9079, grad_fn=<SumBackward0>)
+##### :  torch.Size([1, 6, 1])
+##### :  torch.Size([1, 60, 1])
+### event lambdas:  tensor([[[2.8911, 2.8926, 2.8512, 2.8187, 2.7621, 2.7234]],
+        [[3.8010, 3.8025, 3.7596, 3.7259, 3.6671, 3.6268]],
+        [[3.1245, 3.1260, 3.0841, 3.0511, 2.9938, 2.9545]],
+        [[2.9442, 2.9457, 2.9041, 2.8715, 2.8147, 2.7759]],
+        [[3.2894, 3.2909, 3.2487, 3.2154, 3.1577, 3.1181]],
+        [[3.0477, 3.0492, 3.0074, 2.9746, 2.9175, 2.8784]]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(-40.7252, grad_fn=<NegBackward>) non event loss:  tensor([1623636.0629], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(1.5238, grad_fn=<SumBackward0>)
+##### :  torch.Size([1, 9, 1])
+##### :  torch.Size([1, 90, 1])
+### event lambdas:  tensor([[[1.7020, 1.5475, 1.4095, 1.4844, 0.9312, 0.1577, 0.9321, 1.4171,
+          1.4217]],
+        [[1.5760, 1.4265, 1.2936, 1.3656, 0.8394, 0.1363, 0.8403, 1.3009,
+          1.3053]],
+        [[1.2388, 1.1060, 0.9899, 1.0526, 0.6100, 0.0892, 0.6107, 0.9963,
+          1.0001]],
+        [[1.3140, 1.1771, 1.0568, 1.1218, 0.6590, 0.0986, 0.6598, 1.0634,
+          1.0673]],
+        [[1.4908, 1.3451, 1.2160, 1.2858, 0.7791, 0.1231, 0.7800, 1.2231,
+          1.2273]],
+        [[1.6268, 1.4752, 1.3402, 1.4134, 0.8760, 0.1447, 0.8769, 1.3477,
+          1.3521]],
+        [[1.4802, 1.3349, 1.2063, 1.2759, 0.7717, 0.1215, 0.7726, 1.2134,
+          1.2176]],
+        [[2.0278, 1.8630, 1.7141, 1.7950, 1.1823, 0.2241, 1.1834, 1.7223,
+          1.7273]],
+        [[1.0524, 0.9315, 0.8269, 0.8832, 0.4942, 0.0686, 0.4948, 0.8326,
+          0.8360]]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(10.1332, grad_fn=<NegBackward>) non event loss:  tensor([349273.9169], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.5176, grad_fn=<SumBackward0>)
+##### :  torch.Size([1, 7, 1])
+##### :  torch.Size([1, 70, 1])
+### event lambdas:  tensor([[[0.4838, 0.0237, 0.0493, 0.0177, 0.0482, 0.0073, 0.0056]],
+        [[0.6009, 0.0312, 0.0648, 0.0234, 0.0633, 0.0097, 0.0074]],
+        [[0.5696, 0.0291, 0.0605, 0.0218, 0.0591, 0.0090, 0.0069]],
+        [[0.4587, 0.0222, 0.0462, 0.0166, 0.0451, 0.0069, 0.0052]],
+        [[0.3744, 0.0173, 0.0362, 0.0130, 0.0354, 0.0054, 0.0041]],
+        [[0.5720, 0.0293, 0.0608, 0.0219, 0.0594, 0.0091, 0.0070]],
+        [[0.3716, 0.0172, 0.0359, 0.0128, 0.0351, 0.0053, 0.0041]]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(172.5440, grad_fn=<NegBackward>) non event loss:  tensor([34763.6108], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0130, grad_fn=<SumBackward0>)
+  1%|▊                                                                                                                                               | 3/496 [00:00<01:51,  4.42it/s]
+Traceback (most recent call last):
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 110, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+KeyboardInterrupt

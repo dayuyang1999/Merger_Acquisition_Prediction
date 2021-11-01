@@ -1,0 +1,26 @@
+
+CUDA availability: True
+moving model to GPU
+moving data to GPU
+0
+##### delta t: tensor([[ 95., 238., 154.,   2., 439., 195., 117.,  54.]], device='cuda:0',
+       dtype=torch.float64)
+  0%|                                                                                                                                                                                                                                                              | 0/496 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 158, in <module>
+    main()
+  File "main.py", line 154, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 109, in train
+    loss, pos_timing_loss, neg_timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 183, in forward
+    event_lambdas = self.timing_net(mat_b, mat_c, event_data) # (L3, )
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 282, in forward
+    rate =   torch.einsum('ble, e->bl', b, self.w_b)  + torch.einsum('ble, e->bl', c, self.w_c) +  t_emb.squeeze(-1) # torch.transpose(t_emb, dim0=0, dim1=1)#self.omega * torch.exp(-self.omega * delta_t)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/functional.py", line 408, in einsum
+    return _VF.einsum(equation, operands)  # type: ignore
+RuntimeError: Expected tensor to have cuda DeviceType, but got tensor with cpu DeviceType (while checking arguments for einsum())

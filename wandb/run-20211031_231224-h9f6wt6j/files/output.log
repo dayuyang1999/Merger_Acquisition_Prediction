@@ -1,0 +1,18 @@
+
+CUDA availability: True
+Traceback (most recent call last):
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 65, in train
+    model = MAPredNet()
+  File "/home/dalab5/Projects/MA_packed/model.py", line 61, in __init__
+    self.timing_net = Timing_Net(self.embedding_b, self.embedding_c)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 229, in __init__
+    self.exponential_decay = Time_Transfer()
+  File "/home/dalab5/Projects/MA_packed/model.py", line 209, in __init__
+    self.lin1 = nn.Linear(in_features=1, out_features=10)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 976, in __setattr__
+    raise AttributeError(
+AttributeError: cannot assign module before Module.__init__() call

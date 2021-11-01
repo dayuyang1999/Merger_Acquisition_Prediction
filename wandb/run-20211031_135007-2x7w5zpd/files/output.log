@@ -1,0 +1,45 @@
+
+CUDA availability: True
+  0%|                                                                                                                                                                                                                         | 0/496 [00:00<?, ?it/s]/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py:145: UserWarning: Error detected in SoftplusBackward. Traceback of forward call that caused the error:
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 81, in train
+    loss, timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 184, in forward
+    event_lambdas = self.timing_net(mat_b, mat_c, event_data) # (L3, )
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 263, in forward
+    lambda_dt = self.f_lambda(torch.transpose(rate, dim0=0, dim1=1))
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 784, in forward
+    return F.softplus(input, self.beta, self.threshold)
+ (Triggered internally at  /opt/conda/conda-bld/pytorch_1614378062065/work/torch/csrc/autograd/python_anomaly_mode.cpp:104.)
+  Variable._execution_engine.run_backward(
+  0%|                                                                                                                                                                                                                         | 0/496 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 84, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: Function 'SoftplusBackward' returned nan values in its 0th output.
+### event lambdas:  tensor([[2.2790e-38],
+        [6.6910e-07],
+        [3.7201e-38],
+        [1.7937e-07],
+        [2.8640e-06],
+        [7.6441e-19],
+        [9.4497e-09],
+        [2.5351e-04]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(283.8461, grad_fn=<NegBackward>) non event loss:  tensor([17.5967], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(3.9248, grad_fn=<SumBackward0>)

@@ -1,0 +1,162 @@
+2021-10-31 23:30:37,329 INFO    MainThread:26133 [internal.py:wandb_internal():87] W&B internal server running at pid: 26133, started at: 2021-10-31 23:30:37.329361
+2021-10-31 23:30:37,331 INFO    WriterThread:26133 [datastore.py:open_for_write():77] open: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/run-c0gc0z92.wandb
+2021-10-31 23:30:37,332 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: check_version
+2021-10-31 23:30:37,334 DEBUG   SenderThread:26133 [sender.py:send():238] send: header
+2021-10-31 23:30:37,334 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: check_version
+2021-10-31 23:30:37,400 DEBUG   SenderThread:26133 [sender.py:send():238] send: run
+2021-10-31 23:30:37,504 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: run_start
+2021-10-31 23:30:37,505 INFO    SenderThread:26133 [dir_watcher.py:__init__():169] watching files in: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files
+2021-10-31 23:30:37,505 INFO    SenderThread:26133 [sender.py:_start_run_threads():825] run started: c0gc0z92 with start time 1635737436
+2021-10-31 23:30:37,505 DEBUG   SenderThread:26133 [sender.py:send():238] send: summary
+2021-10-31 23:30:37,505 INFO    SenderThread:26133 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 23:30:37,513 DEBUG   HandlerThread:26133 [meta.py:__init__():40] meta init
+2021-10-31 23:30:37,513 DEBUG   HandlerThread:26133 [meta.py:__init__():54] meta init done
+2021-10-31 23:30:37,513 DEBUG   HandlerThread:26133 [meta.py:probe():214] probe
+2021-10-31 23:30:37,520 DEBUG   HandlerThread:26133 [git.py:repo():33] git repository is invalid
+2021-10-31 23:30:37,520 DEBUG   HandlerThread:26133 [meta.py:_save_code():92] save code
+2021-10-31 23:30:37,523 DEBUG   HandlerThread:26133 [meta.py:_save_code():113] save code done
+2021-10-31 23:30:37,524 DEBUG   HandlerThread:26133 [meta.py:_save_pip():58] save pip
+2021-10-31 23:30:37,524 DEBUG   HandlerThread:26133 [meta.py:_save_pip():72] save pip done
+2021-10-31 23:30:37,524 DEBUG   HandlerThread:26133 [meta.py:_save_conda():79] save conda
+2021-10-31 23:30:38,505 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/requirements.txt
+2021-10-31 23:30:38,506 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/code/main.py
+2021-10-31 23:30:38,506 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/wandb-summary.json
+2021-10-31 23:30:38,506 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/conda-environment.yaml
+2021-10-31 23:30:38,506 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/code
+2021-10-31 23:30:39,400 DEBUG   HandlerThread:26133 [meta.py:_save_conda():89] save conda done
+2021-10-31 23:30:39,400 DEBUG   HandlerThread:26133 [meta.py:probe():252] probe done
+2021-10-31 23:30:39,436 DEBUG   SenderThread:26133 [sender.py:send():238] send: files
+2021-10-31 23:30:39,436 INFO    SenderThread:26133 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-10-31 23:30:39,436 INFO    SenderThread:26133 [sender.py:_save_file():960] saving file code/main.py with policy now
+2021-10-31 23:30:39,443 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 23:30:39,444 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 23:30:39,505 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/conda-environment.yaml
+2021-10-31 23:30:39,505 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/wandb-metadata.json
+2021-10-31 23:30:39,505 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:39,785 INFO    Thread-12 :26133 [upload_job.py:push():137] Uploaded file /tmp/tmpxx1knnt8wandb/3rn51v8z-code/main.py
+2021-10-31 23:30:39,788 INFO    Thread-11 :26133 [upload_job.py:push():137] Uploaded file /tmp/tmpxx1knnt8wandb/3b6xxqyk-wandb-metadata.json
+2021-10-31 23:30:41,506 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:45,507 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:47,508 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:49,509 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:50,509 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:52,510 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:54,510 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:54,531 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 23:30:54,531 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 23:30:56,511 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:30:58,512 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:31:00,513 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:31:02,513 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:31:04,514 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:31:04,571 WARNING MainThread:26133 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-10-31 23:31:06,457 DEBUG   SenderThread:26133 [sender.py:send():238] send: stats
+2021-10-31 23:31:06,515 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:31:06,783 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:06,784 DEBUG   SenderThread:26133 [sender.py:send():238] send: telemetry
+2021-10-31 23:31:06,784 DEBUG   SenderThread:26133 [sender.py:send():238] send: exit
+2021-10-31 23:31:06,784 INFO    SenderThread:26133 [sender.py:send_exit():370] handling exit code: 255
+2021-10-31 23:31:06,785 INFO    SenderThread:26133 [sender.py:send_exit():372] handling runtime: 29
+2021-10-31 23:31:06,785 INFO    SenderThread:26133 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 23:31:06,785 INFO    SenderThread:26133 [sender.py:send_exit():382] send defer
+2021-10-31 23:31:06,786 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:06,787 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:06,787 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 0
+2021-10-31 23:31:06,787 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:06,787 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-10-31 23:31:06,787 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 1
+2021-10-31 23:31:06,788 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:06,788 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 1
+2021-10-31 23:31:06,911 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:06,911 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-10-31 23:31:06,912 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:06,912 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 2
+2021-10-31 23:31:06,912 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:06,913 DEBUG   SenderThread:26133 [sender.py:send():238] send: stats
+2021-10-31 23:31:06,914 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:06,914 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 2
+2021-10-31 23:31:06,914 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:06,915 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-10-31 23:31:06,915 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 3
+2021-10-31 23:31:06,915 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:06,916 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 3
+2021-10-31 23:31:06,916 DEBUG   SenderThread:26133 [sender.py:send():238] send: summary
+2021-10-31 23:31:06,917 INFO    SenderThread:26133 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 23:31:06,917 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:06,917 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-10-31 23:31:06,917 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 4
+2021-10-31 23:31:06,918 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:06,918 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 4
+2021-10-31 23:31:06,918 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:06,918 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-10-31 23:31:07,013 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 5
+2021-10-31 23:31:07,014 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:07,014 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 5
+2021-10-31 23:31:07,014 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:07,015 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-10-31 23:31:07,015 INFO    SenderThread:26133 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-31 23:31:07,015 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:07,516 INFO    Thread-8  :26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:31:07,517 INFO    SenderThread:26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/config.yaml
+2021-10-31 23:31:07,517 INFO    SenderThread:26133 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/wandb-summary.json
+2021-10-31 23:31:07,518 INFO    SenderThread:26133 [dir_watcher.py:finish():313] scan: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files
+2021-10-31 23:31:07,518 INFO    SenderThread:26133 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/wandb-summary.json wandb-summary.json
+2021-10-31 23:31:07,518 INFO    SenderThread:26133 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/config.yaml config.yaml
+2021-10-31 23:31:07,518 INFO    SenderThread:26133 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/requirements.txt requirements.txt
+2021-10-31 23:31:07,519 INFO    SenderThread:26133 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/wandb-metadata.json wandb-metadata.json
+2021-10-31 23:31:07,519 INFO    SenderThread:26133 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/conda-environment.yaml conda-environment.yaml
+2021-10-31 23:31:07,533 INFO    SenderThread:26133 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log output.log
+2021-10-31 23:31:07,540 INFO    SenderThread:26133 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/code/main.py code/main.py
+2021-10-31 23:31:07,540 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 6
+2021-10-31 23:31:07,540 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:07,556 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:07,556 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 6
+2021-10-31 23:31:07,557 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:07,558 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-10-31 23:31:07,558 INFO    SenderThread:26133 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-31 23:31:07,659 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:07,660 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:07,762 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:07,763 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:07,847 INFO    Thread-14 :26133 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/config.yaml
+2021-10-31 23:31:07,865 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:07,865 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:07,888 INFO    Thread-16 :26133 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/conda-environment.yaml
+2021-10-31 23:31:07,891 INFO    Thread-13 :26133 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/wandb-summary.json
+2021-10-31 23:31:07,916 INFO    Thread-15 :26133 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/requirements.txt
+2021-10-31 23:31:07,935 INFO    Thread-17 :26133 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/files/output.log
+2021-10-31 23:31:07,967 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:07,968 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:08,070 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:08,070 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:08,136 INFO    Thread-7  :26133 [sender.py:transition_state():395] send defer: 7
+2021-10-31 23:31:08,137 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:08,137 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 7
+2021-10-31 23:31:08,137 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:08,137 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-10-31 23:31:08,173 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:08,262 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 8
+2021-10-31 23:31:08,263 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:08,263 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:08,264 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 8
+2021-10-31 23:31:08,264 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:08,264 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-10-31 23:31:08,264 INFO    SenderThread:26133 [sender.py:transition_state():395] send defer: 9
+2021-10-31 23:31:08,265 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 23:31:08,266 DEBUG   SenderThread:26133 [sender.py:send():238] send: final
+2021-10-31 23:31:08,266 INFO    HandlerThread:26133 [handler.py:handle_request_defer():147] handle defer: 9
+2021-10-31 23:31:08,266 DEBUG   SenderThread:26133 [sender.py:send():238] send: footer
+2021-10-31 23:31:08,267 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: defer
+2021-10-31 23:31:08,267 INFO    SenderThread:26133 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-10-31 23:31:08,365 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 23:31:08,365 DEBUG   SenderThread:26133 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 23:31:08,366 INFO    SenderThread:26133 [file_pusher.py:join():182] waiting for file pusher
+2021-10-31 23:31:08,525 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: get_summary
+2021-10-31 23:31:08,527 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: sampled_history
+2021-10-31 23:31:08,528 DEBUG   HandlerThread:26133 [handler.py:handle_request():130] handle_request: shutdown
+2021-10-31 23:31:08,528 INFO    HandlerThread:26133 [handler.py:finish():731] shutting down handler
+2021-10-31 23:31:09,266 INFO    WriterThread:26133 [datastore.py:close():281] close: /home/dalab5/Projects/MA_packed/wandb/run-20211031_233036-c0gc0z92/run-c0gc0z92.wandb
+2021-10-31 23:31:09,523 INFO    SenderThread:26133 [sender.py:finish():1091] shutting down sender
+2021-10-31 23:31:09,524 INFO    SenderThread:26133 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-31 23:31:09,524 INFO    SenderThread:26133 [file_pusher.py:join():182] waiting for file pusher
+2021-10-31 23:31:09,527 INFO    MainThread:26133 [internal.py:handle_exit():77] Internal process exited

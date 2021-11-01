@@ -1,0 +1,226 @@
+
+CUDA availability: True
+  1%|██                                                                                                                                                                                                               | 5/496 [00:01<01:44,  4.68it/s]
+##### event loss: tensor(11.1217, grad_fn=<NegBackward>) non event loss:  tensor([101.8719], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(100.7967, grad_fn=<NegBackward>) non event loss:  tensor([4.9413], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(311.8076, grad_fn=<NegBackward>) non event loss:  tensor([1.1060], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(179.0892, grad_fn=<NegBackward>) non event loss:  tensor([0.1384], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+  2%|█████                                                                                                                                                                                                           | 12/496 [00:03<02:08,  3.76it/s]
+##### event loss: tensor(75.7058, grad_fn=<NegBackward>) non event loss:  tensor([0.1143], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(162.1093, grad_fn=<NegBackward>) non event loss:  tensor([0.1303], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(110.1460, grad_fn=<NegBackward>) non event loss:  tensor([2.2781], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(96.5241, grad_fn=<NegBackward>) non event loss:  tensor([0.3899], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(62.4651, grad_fn=<NegBackward>) non event loss:  tensor([0.8989], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(109.0373, grad_fn=<NegBackward>) non event loss:  tensor([3.4248], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+  5%|██████████                                                                                                                                                                                                      | 24/496 [00:05<01:03,  7.42it/s]
+##### event loss: tensor(73.7305, grad_fn=<NegBackward>) non event loss:  tensor([26.7008], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(76.7970, grad_fn=<NegBackward>) non event loss:  tensor([6.2151], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(89.6279, grad_fn=<NegBackward>) non event loss:  tensor([6.3440], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(84.1593, grad_fn=<NegBackward>) non event loss:  tensor([7.5637], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(96.3440, grad_fn=<NegBackward>) non event loss:  tensor([2.9487], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(25.2060, grad_fn=<NegBackward>) non event loss:  tensor([5.8515], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(120.8625, grad_fn=<NegBackward>) non event loss:  tensor([2.0946], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(39.9643, grad_fn=<NegBackward>) non event loss:  tensor([6.8856], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(61.1059, grad_fn=<NegBackward>) non event loss:  tensor([2.0530], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(41.0795, grad_fn=<NegBackward>) non event loss:  tensor([10.5493], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(58.2173, grad_fn=<NegBackward>) non event loss:  tensor([5.3984], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+  6%|█████████████                                                                                                                                                                                                   | 31/496 [00:07<01:41,  4.56it/s]
+##### event loss: tensor(580.8319, grad_fn=<NegBackward>) non event loss:  tensor([28.6747], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(48.2986, grad_fn=<NegBackward>) non event loss:  tensor([10.6844], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(45.3464, grad_fn=<NegBackward>) non event loss:  tensor([156.5634], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(56.9582, grad_fn=<NegBackward>) non event loss:  tensor([57.2184], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(39.5146, grad_fn=<NegBackward>) non event loss:  tensor([8.8424], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(108.5124, grad_fn=<NegBackward>) non event loss:  tensor([11.4737], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(69.4941, grad_fn=<NegBackward>) non event loss:  tensor([2.4794], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+  8%|█████████████████▏                                                                                                                                                                                              | 41/496 [00:09<01:41,  4.50it/s]
+##### event loss: tensor(48.6046, grad_fn=<NegBackward>) non event loss:  tensor([1.9557], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(32.4966, grad_fn=<NegBackward>) non event loss:  tensor([0.7476], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(57.7673, grad_fn=<NegBackward>) non event loss:  tensor([1.1609], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(32.6383, grad_fn=<NegBackward>) non event loss:  tensor([0.8239], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(84.9120, grad_fn=<NegBackward>) non event loss:  tensor([0.7952], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(85.4342, grad_fn=<NegBackward>) non event loss:  tensor([1.4122], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(67.9657, grad_fn=<NegBackward>) non event loss:  tensor([4.7096], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(29.5944, grad_fn=<NegBackward>) non event loss:  tensor([110.4558], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(38.5365, grad_fn=<NegBackward>) non event loss:  tensor([0.6740], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 11%|███████████████████████                                                                                                                                                                                         | 55/496 [00:11<01:13,  5.99it/s]
+##### event loss: tensor(92.5019, grad_fn=<NegBackward>) non event loss:  tensor([0.0900], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(71.7284, grad_fn=<NegBackward>) non event loss:  tensor([0.0092], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(95.2610, grad_fn=<NegBackward>) non event loss:  tensor([0.0049], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(132.4480, grad_fn=<NegBackward>) non event loss:  tensor([0.0034], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(91.6890, grad_fn=<NegBackward>) non event loss:  tensor([0.0069], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(100.0820, grad_fn=<NegBackward>) non event loss:  tensor([0.0010], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(121.4394, grad_fn=<NegBackward>) non event loss:  tensor([0.0051], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(98.2085, grad_fn=<NegBackward>) non event loss:  tensor([0.0006], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(72.3138, grad_fn=<NegBackward>) non event loss:  tensor([0.0002], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(208.7629, grad_fn=<NegBackward>) non event loss:  tensor([0.0033], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(143.7238, grad_fn=<NegBackward>) non event loss:  tensor([0.0105], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(94.6063, grad_fn=<NegBackward>) non event loss:  tensor([0.0044], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 13%|██████████████████████████▊                                                                                                                                                                                     | 64/496 [00:13<01:26,  4.97it/s]
+##### event loss: tensor(115.0220, grad_fn=<NegBackward>) non event loss:  tensor([0.0209], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(123.5967, grad_fn=<NegBackward>) non event loss:  tensor([0.1026], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(115.6496, grad_fn=<NegBackward>) non event loss:  tensor([0.1422], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(138.2728, grad_fn=<NegBackward>) non event loss:  tensor([0.2697], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(158.2103, grad_fn=<NegBackward>) non event loss:  tensor([0.1465], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(57.1036, grad_fn=<NegBackward>) non event loss:  tensor([7.5578], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(101.7084, grad_fn=<NegBackward>) non event loss:  tensor([9.0114], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(52.1832, grad_fn=<NegBackward>) non event loss:  tensor([76.5901], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(124.7028, grad_fn=<NegBackward>) non event loss:  tensor([58.0245], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 15%|███████████████████████████████                                                                                                                                                                                 | 74/496 [00:15<01:25,  4.93it/s]
+##### event loss: tensor(62.3928, grad_fn=<NegBackward>) non event loss:  tensor([2.2847], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(297.9886, grad_fn=<NegBackward>) non event loss:  tensor([0.2105], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(63.6334, grad_fn=<NegBackward>) non event loss:  tensor([0.1122], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(114.6201, grad_fn=<NegBackward>) non event loss:  tensor([0.1951], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(258.2144, grad_fn=<NegBackward>) non event loss:  tensor([0.0935], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(110.6747, grad_fn=<NegBackward>) non event loss:  tensor([0.0260], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(66.7589, grad_fn=<NegBackward>) non event loss:  tensor([0.0736], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(147.6231, grad_fn=<NegBackward>) non event loss:  tensor([0.0339], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 17%|███████████████████████████████████▋                                                                                                                                                                            | 85/496 [00:17<01:12,  5.68it/s]
+##### event loss: tensor(109.6992, grad_fn=<NegBackward>) non event loss:  tensor([0.0252], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(76.9528, grad_fn=<NegBackward>) non event loss:  tensor([0.1585], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(75.6589, grad_fn=<NegBackward>) non event loss:  tensor([0.6480], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(164.5412, grad_fn=<NegBackward>) non event loss:  tensor([0.0817], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(70.0745, grad_fn=<NegBackward>) non event loss:  tensor([0.2752], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(85.3411, grad_fn=<NegBackward>) non event loss:  tensor([0.3946], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(83.6209, grad_fn=<NegBackward>) non event loss:  tensor([0.4258], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(188.5441, grad_fn=<NegBackward>) non event loss:  tensor([1.0775], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(88.4893, grad_fn=<NegBackward>) non event loss:  tensor([1.5110], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(112.1313, grad_fn=<NegBackward>) non event loss:  tensor([4.2215], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(73.3472, grad_fn=<NegBackward>) non event loss:  tensor([4.4927], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 19%|███████████████████████████████████████▍                                                                                                                                                                        | 94/496 [00:19<01:21,  4.95it/s]
+##### event loss: tensor(81.8112, grad_fn=<NegBackward>) non event loss:  tensor([14.0137], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(61.3319, grad_fn=<NegBackward>) non event loss:  tensor([9.6396], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(84.0530, grad_fn=<NegBackward>) non event loss:  tensor([27.3045], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(75.2481, grad_fn=<NegBackward>) non event loss:  tensor([5.1285], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(46.9939, grad_fn=<NegBackward>) non event loss:  tensor([3.9721], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(65.7265, grad_fn=<NegBackward>) non event loss:  tensor([12.8788], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(180.0684, grad_fn=<NegBackward>) non event loss:  tensor([10.0912], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(47.6320, grad_fn=<NegBackward>) non event loss:  tensor([17.4344], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 20%|██████████████████████████████████████████▏                                                                                                                                                                    | 101/496 [00:21<02:00,  3.27it/s]
+##### event loss: tensor(166.6764, grad_fn=<NegBackward>) non event loss:  tensor([1.3820], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(175.2668, grad_fn=<NegBackward>) non event loss:  tensor([1.9400], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(296.6613, grad_fn=<NegBackward>) non event loss:  tensor([2.9553], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(110.3376, grad_fn=<NegBackward>) non event loss:  tensor([3.9972], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(105.2334, grad_fn=<NegBackward>) non event loss:  tensor([37.6449], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(108.4604, grad_fn=<NegBackward>) non event loss:  tensor([8.7471], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 23%|███████████████████████████████████████████████▏                                                                                                                                                               | 113/496 [00:23<01:11,  5.33it/s]
+##### event loss: tensor(85.2745, grad_fn=<NegBackward>) non event loss:  tensor([17.1384], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(29.8514, grad_fn=<NegBackward>) non event loss:  tensor([8.6673], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(46.2381, grad_fn=<NegBackward>) non event loss:  tensor([9.0715], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(59.5740, grad_fn=<NegBackward>) non event loss:  tensor([19.0710], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(119.9468, grad_fn=<NegBackward>) non event loss:  tensor([38.3416], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(51.0256, grad_fn=<NegBackward>) non event loss:  tensor([49.3654], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(70.5555, grad_fn=<NegBackward>) non event loss:  tensor([1.5880], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(51.5225, grad_fn=<NegBackward>) non event loss:  tensor([0.6028], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(61.2701, grad_fn=<NegBackward>) non event loss:  tensor([0.6075], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(178.5063, grad_fn=<NegBackward>) non event loss:  tensor([0.4334], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 25%|███████████████████████████████████████████████████▎                                                                                                                                                           | 123/496 [00:25<01:04,  5.77it/s]
+##### event loss: tensor(75.8691, grad_fn=<NegBackward>) non event loss:  tensor([0.4291], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(114.8827, grad_fn=<NegBackward>) non event loss:  tensor([0.1794], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(99.3914, grad_fn=<NegBackward>) non event loss:  tensor([0.1509], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(211.2184, grad_fn=<NegBackward>) non event loss:  tensor([0.3909], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(309.3829, grad_fn=<NegBackward>) non event loss:  tensor([0.3444], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(94.8619, grad_fn=<NegBackward>) non event loss:  tensor([0.5506], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(109.9149, grad_fn=<NegBackward>) non event loss:  tensor([1.5611], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(30.1884, grad_fn=<NegBackward>) non event loss:  tensor([2.4609], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(167.5960, grad_fn=<NegBackward>) non event loss:  tensor([4.9655], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(71.2182, grad_fn=<NegBackward>) non event loss:  tensor([8.3754], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 27%|████████████████████████████████████████████████████████▊                                                                                                                                                      | 136/496 [00:27<00:51,  6.97it/s]
+##### event loss: tensor(45.2823, grad_fn=<NegBackward>) non event loss:  tensor([47.7915], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(63.0216, grad_fn=<NegBackward>) non event loss:  tensor([15.7794], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(33.5558, grad_fn=<NegBackward>) non event loss:  tensor([11.5628], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(24.1963, grad_fn=<NegBackward>) non event loss:  tensor([8.8932], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(107.1237, grad_fn=<NegBackward>) non event loss:  tensor([3.2250], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(38.1782, grad_fn=<NegBackward>) non event loss:  tensor([3.4449], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(108.4887, grad_fn=<NegBackward>) non event loss:  tensor([6.1801], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(105.0472, grad_fn=<NegBackward>) non event loss:  tensor([3.4099], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(40.8175, grad_fn=<NegBackward>) non event loss:  tensor([4.1367], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(190.3231, grad_fn=<NegBackward>) non event loss:  tensor([2.3057], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(20.3601, grad_fn=<NegBackward>) non event loss:  tensor([0.6116], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(52.7097, grad_fn=<NegBackward>) non event loss:  tensor([4.8968], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 29%|████████████████████████████████████████████████████████████▉                                                                                                                                                  | 146/496 [00:29<01:18,  4.43it/s]
+##### event loss: tensor(144.6830, grad_fn=<NegBackward>) non event loss:  tensor([3.4968], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(42.1125, grad_fn=<NegBackward>) non event loss:  tensor([2.1637], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(45.6888, grad_fn=<NegBackward>) non event loss:  tensor([11.1945], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(37.6704, grad_fn=<NegBackward>) non event loss:  tensor([10.0878], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(141.5431, grad_fn=<NegBackward>) non event loss:  tensor([8.6666], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(107.1736, grad_fn=<NegBackward>) non event loss:  tensor([15.0647], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(106.3883, grad_fn=<NegBackward>) non event loss:  tensor([13.3034], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(56.8896, grad_fn=<NegBackward>) non event loss:  tensor([15.3956], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(123.2303, grad_fn=<NegBackward>) non event loss:  tensor([7.3315], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 31%|████████████████████████████████████████████████████████████████▋                                                                                                                                              | 155/496 [00:31<01:06,  5.10it/s]
+##### event loss: tensor(71.8573, grad_fn=<NegBackward>) non event loss:  tensor([14.3862], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(40.1955, grad_fn=<NegBackward>) non event loss:  tensor([6.3305], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(59.2248, grad_fn=<NegBackward>) non event loss:  tensor([2.6171], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(38.6715, grad_fn=<NegBackward>) non event loss:  tensor([6.4205], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(45.1624, grad_fn=<NegBackward>) non event loss:  tensor([12.2519], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(120.8083, grad_fn=<NegBackward>) non event loss:  tensor([5.2501], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(78.8110, grad_fn=<NegBackward>) non event loss:  tensor([8.4812], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(75.3429, grad_fn=<NegBackward>) non event loss:  tensor([3.8393], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 33%|████████████████████████████████████████████████████████████████████▍                                                                                                                                          | 164/496 [00:33<01:16,  4.34it/s]
+##### event loss: tensor(97.9871, grad_fn=<NegBackward>) non event loss:  tensor([8.7560], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(22.1677, grad_fn=<NegBackward>) non event loss:  tensor([7.6057], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(37.1238, grad_fn=<NegBackward>) non event loss:  tensor([7.2149], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(51.7781, grad_fn=<NegBackward>) non event loss:  tensor([16.4807], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(34.6888, grad_fn=<NegBackward>) non event loss:  tensor([19.2420], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(117.3055, grad_fn=<NegBackward>) non event loss:  tensor([6.6208], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(56.4898, grad_fn=<NegBackward>) non event loss:  tensor([12.2671], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(50.9319, grad_fn=<NegBackward>) non event loss:  tensor([6.6209], dtype=torch.float64, grad_fn=<MulBackward0>)
+
+ 35%|████████████████████████████████████████████████████████████████████████▏                                                                                                                                      | 173/496 [00:35<01:28,  3.63it/s]
+##### event loss: tensor(67.0699, grad_fn=<NegBackward>) non event loss:  tensor([3.9441], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(63.5267, grad_fn=<NegBackward>) non event loss:  tensor([3.6787], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(45.1577, grad_fn=<NegBackward>) non event loss:  tensor([5.2679], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(68.8454, grad_fn=<NegBackward>) non event loss:  tensor([2.2461], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(98.3133, grad_fn=<NegBackward>) non event loss:  tensor([4.4296], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(74.9882, grad_fn=<NegBackward>) non event loss:  tensor([3.6168], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(71.9548, grad_fn=<NegBackward>) non event loss:  tensor([1.1634], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(203.9831, grad_fn=<NegBackward>) non event loss:  tensor([7.0461], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(48.2260, grad_fn=<NegBackward>) non event loss:  tensor([8.6794], dtype=torch.float64, grad_fn=<MulBackward0>)
+##### event loss: tensor(76.0257, grad_fn=<NegBackward>) non event loss:  tensor([14.2591], dtype=torch.float64, grad_fn=<MulBackward0>)
+ 35%|█████████████████████████████████████████████████████████████████████████                                                                                                                                      | 175/496 [00:35<01:05,  4.87it/s]
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 81, in train
+    loss, timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 199, in forward
+    choice_l = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 350, in forward
+    z_vt_i = self.gnn_choice(features_i.squeeze(), edges_i.squeeze()) # (N_i_1, embedding_z)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 454, in forward
+    x = F.relu(x)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 1206, in relu
+    result = torch.relu(input)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 197, in format_stack
+    return format_list(extract_stack(f, limit=limit))
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 211, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 362, in extract
+    linecache.checkcache(filename)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/linecache.py", line 74, in checkcache
+    stat = os.stat(fullname)
+KeyboardInterrupt

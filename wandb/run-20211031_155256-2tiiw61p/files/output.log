@@ -1,0 +1,11 @@
+
+CUDA availability: True
+  0%|                                                                                                                                                                                                                         | 0/496 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "main.py", line 129, in <module>
+    main()
+  File "main.py", line 125, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 82, in train
+    loss, pos_timing_loss, neg_timing_loss, choice_l = model(arr_b.float().to(device), arr_c.float().to(device), arr_delta_time.float().to(device), event_data.to(device), non_event_data.to(device), estimate_length.to(device), choice_data_dict.to(device))
+AttributeError: 'list' object has no attribute 'to'

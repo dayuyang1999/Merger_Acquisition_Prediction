@@ -1,0 +1,92 @@
+
+CUDA availability: True
+-1
+-1
+### event lambdas:  tensor([[8.0945e-02],
+        [2.3557e+00],
+        [5.3894e-04],
+        [3.5846e+00],
+        [1.8929e-01],
+        [2.5162e-02],
+        [9.0152e-03],
+        [2.2002e+00],
+        [3.1300e-16]], grad_fn=<ExpBackward>)
+##### event loss: tensor(52.8739, grad_fn=<NegBackward>) non event loss:  tensor([33535.5485], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(4.2927, grad_fn=<SumBackward0>)
+-1
+-1
+### event lambdas:  tensor([[1.9486e-04],
+        [2.8151e-01],
+        [1.0972e-11],
+        [8.6486e-08],
+        [1.0566e-03],
+        [1.3707e-18],
+        [1.1386e-02]], grad_fn=<ExpBackward>)
+##### event loss: tensor(103.7691, grad_fn=<NegBackward>) non event loss:  tensor([1697.2827], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(2.7007, grad_fn=<SumBackward0>)
+-1
+-1
+### event lambdas:  tensor([[1.2265e-17],
+        [1.1994e-31],
+        [8.9367e-06],
+        [3.1327e-10],
+        [5.7075e-02]], grad_fn=<ExpBackward>)
+##### event loss: tensor(146.5108, grad_fn=<NegBackward>) non event loss:  tensor([137.3788], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.5195, grad_fn=<SumBackward0>)
+-1
+-1
+### event lambdas:  tensor([[5.3910e-06],
+        [7.2824e-05],
+        [3.2202e-02],
+        [2.4112e-02],
+        [1.3894e-03],
+        [1.2789e-02],
+        [4.1392e-03]], grad_fn=<ExpBackward>)
+##### event loss: tensor(45.2444, grad_fn=<NegBackward>) non event loss:  tensor([32.1228], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0390, grad_fn=<SumBackward0>)
+-1
+-1
+### event lambdas:  tensor([[7.5030e-33],
+        [4.0552e-12],
+        [3.2663e-04],
+        [1.4591e-15],
+        [2.5695e-10],
+        [1.7776e-07],
+        [6.0801e-11]], grad_fn=<ExpBackward>)
+##### event loss: tensor(203.5371, grad_fn=<NegBackward>) non event loss:  tensor([4.4232], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0131, grad_fn=<SumBackward0>)
+-1
+-1
+### event lambdas:  tensor([[0.0000e+00],
+        [0.0000e+00],
+        [1.8004e-14],
+        [1.9510e-04],
+        [3.5292e-04],
+        [1.0266e-05],
+        [2.0268e-20]], grad_fn=<ExpBackward>)
+##### event loss: tensor(inf, grad_fn=<NegBackward>) non event loss:  tensor([0.2606], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.0190, grad_fn=<SumBackward0>)
+  1%|█▉                                                                                                                                                                                                    | 5/496 [00:00<01:15,  6.47it/s]/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py:145: UserWarning: Error detected in ExpBackward. Traceback of forward call that caused the error:
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 107, in train
+    loss, pos_timing_loss, neg_timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 183, in forward
+    event_lambdas = self.timing_net(mat_b, mat_c, event_data) # (L3, )
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 267, in forward
+    lambda_dt = torch.exp(torch.transpose(rate, dim0=0, dim1=1))
+ (Triggered internally at  /opt/conda/conda-bld/pytorch_1614378062065/work/torch/csrc/autograd/python_anomaly_mode.cpp:104.)
+  Variable._execution_engine.run_backward(
+  1%|█▉                                                                                                                                                                                                    | 5/496 [00:00<01:28,  5.52it/s]
+Traceback (most recent call last):
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 110, in train
+    loss.backward() # required_graph = True
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 245, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/autograd/__init__.py", line 145, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: Function 'ExpBackward' returned nan values in its 0th output.

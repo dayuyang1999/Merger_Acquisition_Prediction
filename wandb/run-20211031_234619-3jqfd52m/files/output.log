@@ -1,0 +1,64 @@
+
+CUDA availability: True
+  0%|▌                                                                                                                                               | 2/496 [00:00<02:01,  4.06it/s]
+Traceback (most recent call last):
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 107, in train
+    loss, pos_timing_loss, neg_timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 195, in forward
+    choice_l = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 369, in forward
+    z_vt_i = self.gnn_choice(features_i.squeeze(), edges_i.squeeze()) # (N_i_1, embedding_z)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 472, in forward
+    x = self.convs[i](x, edge_index)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 512, in forward
+    out = F.normalize(out, p=2)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py", line 4270, in normalize
+    denom = input.norm(p, dim, keepdim=True).clamp_min(eps).expand_as(input)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/tensor.py", line 401, in norm
+    return torch.norm(self, p, dim, keepdim, dtype=dtype)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/functional.py", line 1420, in norm
+    return _VF.norm(input, p, _dim, keepdim=keepdim)  # type: ignore
+KeyboardInterrupt
+##### :  torch.Size([1, 6, 1]) torch.Size([1, 6, 32])
+torch.Size([1, 6]) torch.Size([1, 6, 6])
+##### :  torch.Size([1, 60, 1]) torch.Size([1, 60, 32])
+torch.Size([1, 60]) torch.Size([1, 60, 60])
+### event lambdas:  tensor([[[0.3611, 0.2807, 0.2725, 0.1920, 0.5360, 0.1688]],
+        [[0.2502, 0.1921, 0.1862, 0.1296, 0.3808, 0.1135]],
+        [[0.1723, 0.1311, 0.1270, 0.0875, 0.2674, 0.0765]],
+        [[0.2380, 0.1826, 0.1769, 0.1229, 0.3634, 0.1076]],
+        [[0.2721, 0.2095, 0.2031, 0.1417, 0.4121, 0.1242]],
+        [[0.3569, 0.2774, 0.2692, 0.1896, 0.5303, 0.1667]]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(57.0279, grad_fn=<NegBackward>) non event loss:  tensor([67965.3849], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(4.4785, grad_fn=<SumBackward0>)
+##### :  torch.Size([1, 5, 1]) torch.Size([1, 5, 32])
+torch.Size([1, 5]) torch.Size([1, 5, 5])
+##### :  torch.Size([1, 50, 1]) torch.Size([1, 50, 32])
+torch.Size([1, 50]) torch.Size([1, 50, 50])
+### event lambdas:  tensor([[[0.0161, 0.0171, 0.0093, 0.0059, 0.0065]],
+        [[0.0111, 0.0118, 0.0064, 0.0041, 0.0045]],
+        [[0.0104, 0.0110, 0.0060, 0.0038, 0.0042]],
+        [[0.0395, 0.0420, 0.0229, 0.0146, 0.0160]],
+        [[0.0235, 0.0249, 0.0136, 0.0086, 0.0094]]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(112.8966, grad_fn=<NegBackward>) non event loss:  tensor([6688.8589], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(2.1674, grad_fn=<SumBackward0>)
+##### :  torch.Size([1, 4, 1]) torch.Size([1, 4, 32])
+torch.Size([1, 4]) torch.Size([1, 4, 4])
+##### :  torch.Size([1, 40, 1]) torch.Size([1, 40, 32])
+torch.Size([1, 40]) torch.Size([1, 40, 40])
+### event lambdas:  tensor([[[0.0086, 0.0020, 0.0016, 0.0015]],
+        [[0.0045, 0.0011, 0.0009, 0.0008]],
+        [[0.0041, 0.0010, 0.0008, 0.0007]],
+        [[0.0084, 0.0020, 0.0016, 0.0015]]], grad_fn=<SoftplusBackward>)

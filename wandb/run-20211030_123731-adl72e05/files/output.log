@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "main.py", line 87, in <module>
+    main()
+  File "main.py", line 81, in main
+    dataset = MADataset()
+  File "/home/dalab5/Projects/MA_packed/utils.py", line 27, in __init__
+    assert len(self.ma_dataset) == len(self.a_freq_lst), "a_freq and ma_dataset length dismatch"
+AssertionError: a_freq and ma_dataset length dismatch
+CUDA availability: True

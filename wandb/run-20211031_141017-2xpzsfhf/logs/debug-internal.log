@@ -1,0 +1,1114 @@
+2021-10-31 14:10:18,468 INFO    MainThread:17800 [internal.py:wandb_internal():87] W&B internal server running at pid: 17800, started at: 2021-10-31 14:10:18.468456
+2021-10-31 14:10:18,470 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: check_version
+2021-10-31 14:10:18,471 INFO    WriterThread:17800 [datastore.py:open_for_write():77] open: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/run-2xpzsfhf.wandb
+2021-10-31 14:10:18,473 DEBUG   SenderThread:17800 [sender.py:send():238] send: header
+2021-10-31 14:10:18,473 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: check_version
+2021-10-31 14:10:18,530 DEBUG   SenderThread:17800 [sender.py:send():238] send: run
+2021-10-31 14:10:18,634 INFO    SenderThread:17800 [dir_watcher.py:__init__():169] watching files in: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files
+2021-10-31 14:10:18,635 INFO    SenderThread:17800 [sender.py:_start_run_threads():825] run started: 2xpzsfhf with start time 1635703817
+2021-10-31 14:10:18,635 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:10:18,635 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:10:18,636 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: run_start
+2021-10-31 14:10:18,644 DEBUG   HandlerThread:17800 [meta.py:__init__():40] meta init
+2021-10-31 14:10:18,645 DEBUG   HandlerThread:17800 [meta.py:__init__():54] meta init done
+2021-10-31 14:10:18,645 DEBUG   HandlerThread:17800 [meta.py:probe():214] probe
+2021-10-31 14:10:18,651 DEBUG   HandlerThread:17800 [git.py:repo():33] git repository is invalid
+2021-10-31 14:10:18,651 DEBUG   HandlerThread:17800 [meta.py:_save_code():92] save code
+2021-10-31 14:10:18,652 DEBUG   HandlerThread:17800 [meta.py:_save_code():113] save code done
+2021-10-31 14:10:18,652 DEBUG   HandlerThread:17800 [meta.py:_save_pip():58] save pip
+2021-10-31 14:10:18,653 DEBUG   HandlerThread:17800 [meta.py:_save_pip():72] save pip done
+2021-10-31 14:10:18,653 DEBUG   HandlerThread:17800 [meta.py:_save_conda():79] save conda
+2021-10-31 14:10:19,638 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/conda-environment.yaml
+2021-10-31 14:10:19,639 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/requirements.txt
+2021-10-31 14:10:19,639 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/code/main.py
+2021-10-31 14:10:19,639 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:10:19,640 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/code
+2021-10-31 14:10:20,547 DEBUG   HandlerThread:17800 [meta.py:_save_conda():89] save conda done
+2021-10-31 14:10:20,548 DEBUG   HandlerThread:17800 [meta.py:probe():252] probe done
+2021-10-31 14:10:20,573 DEBUG   SenderThread:17800 [sender.py:send():238] send: files
+2021-10-31 14:10:20,574 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-metadata.json with policy now
+2021-10-31 14:10:20,574 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file code/main.py with policy now
+2021-10-31 14:10:20,578 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:10:20,578 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:10:20,638 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/conda-environment.yaml
+2021-10-31 14:10:20,639 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-metadata.json
+2021-10-31 14:10:20,639 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_created():217] file/dir created: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:20,865 INFO    Thread-12 :17800 [upload_job.py:push():137] Uploaded file /tmp/tmpw7oicwx6wandb/240ml31z-code/main.py
+2021-10-31 14:10:20,869 INFO    Thread-11 :17800 [upload_job.py:push():137] Uploaded file /tmp/tmpw7oicwx6wandb/2w0dpd6t-wandb-metadata.json
+2021-10-31 14:10:22,639 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:26,641 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:28,642 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:30,643 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:32,644 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:34,645 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:35,654 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:10:35,655 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:10:36,645 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:38,646 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:40,647 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:42,647 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:44,648 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:46,649 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:47,608 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:10:48,650 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:50,651 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:50,726 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:10:50,726 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:10:52,651 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:54,652 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:56,653 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:10:58,653 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:00,654 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:02,655 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:04,658 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:05,794 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:11:05,794 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:11:07,659 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:09,659 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:11,660 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:13,661 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:15,662 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:17,662 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:18,498 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:11:19,663 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:20,864 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:11:20,864 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:11:21,664 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:23,665 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:25,665 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:27,666 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:29,667 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:31,668 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:33,669 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:35,669 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:35,935 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:11:35,935 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:11:37,670 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:39,671 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:41,671 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:43,672 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:45,673 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:47,674 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:49,407 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:11:49,674 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:51,003 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:11:51,003 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:11:51,675 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:53,676 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:55,677 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:57,677 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:11:59,678 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:01,679 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:02,020 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:12:02,020 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:12:02,021 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:12:02,679 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:12:03,680 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:05,680 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:06,072 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:12:06,072 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:12:07,681 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:09,682 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:11,683 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:13,683 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:15,684 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:17,685 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:19,686 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:20,345 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:12:21,140 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:12:21,140 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:12:21,687 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:23,687 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:25,688 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:27,689 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:29,690 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:31,690 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:33,691 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:35,692 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:36,213 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:12:36,213 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:12:37,693 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:39,693 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:41,694 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:43,695 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:45,696 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:47,697 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:49,697 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:51,288 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:12:51,288 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:12:51,359 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:12:51,698 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:53,699 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:55,700 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:57,700 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:12:59,701 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:01,702 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:03,703 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:05,704 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:06,360 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:13:06,360 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:13:07,704 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:09,705 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:11,706 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:13,706 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:15,707 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:17,708 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:19,709 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:21,433 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:13:21,433 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:13:21,709 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:22,215 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:13:23,710 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:25,711 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:27,712 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:28,928 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:13:28,928 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:13:28,929 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:13:29,712 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:13:29,713 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:31,713 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:33,714 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:35,715 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:36,505 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:13:36,505 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:13:37,715 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:39,716 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:41,717 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:43,718 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:45,719 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:47,720 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:49,721 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:51,575 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:13:51,575 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:13:51,721 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:53,142 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:13:53,722 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:55,723 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:57,724 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:13:59,725 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:01,726 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:03,726 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:05,727 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:06,647 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:14:06,647 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:14:07,728 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:09,729 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:11,730 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:13,730 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:15,731 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:17,732 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:19,733 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:21,715 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:14:21,715 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:14:21,734 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:23,734 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:24,077 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:14:25,735 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:27,736 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:29,736 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:31,737 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:33,738 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:35,739 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:36,785 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:14:36,785 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:14:37,739 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:39,740 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:41,741 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:43,741 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:45,742 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:47,743 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:49,743 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:51,744 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:51,854 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:14:51,854 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:14:53,745 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:54,994 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:14:55,746 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:57,746 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:14:59,747 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:01,748 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:03,749 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:04,569 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:15:04,569 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:15:04,570 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:15:04,749 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:15:05,749 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:06,925 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:15:06,926 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:15:07,750 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:09,751 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:11,752 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:13,752 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:15,753 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:17,754 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:19,755 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:21,755 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:21,995 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:15:21,995 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:15:23,756 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:25,757 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:25,889 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:15:27,758 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:29,759 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:31,760 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:33,760 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:35,761 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:37,104 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:15:37,104 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:15:37,762 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:39,763 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:41,763 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:43,764 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:45,765 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:47,766 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:49,767 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:51,767 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:52,177 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:15:52,177 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:15:53,768 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:55,769 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:56,783 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:15:57,770 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:15:59,770 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:01,771 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:03,772 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:05,773 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:07,246 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:16:07,246 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:16:07,773 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:09,774 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:11,775 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:13,775 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:15,776 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:17,777 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:19,778 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:21,778 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:22,317 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:16:22,317 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:16:23,779 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:25,780 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:27,695 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:16:27,780 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:29,781 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:31,782 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:33,783 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:35,783 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:37,391 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:16:37,391 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:16:37,784 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:39,785 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:40,412 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:16:40,412 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:16:40,413 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:16:40,785 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:16:41,785 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:43,786 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:45,787 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:47,788 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:49,789 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:51,789 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:52,462 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:16:52,462 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:16:53,790 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:55,791 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:57,791 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:16:58,630 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:16:59,792 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:01,793 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:03,793 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:05,794 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:07,532 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:17:07,532 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:17:07,795 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:09,796 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:11,796 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:13,797 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:15,798 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:17,798 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:19,799 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:21,800 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:22,603 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:17:22,603 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:17:23,800 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:25,801 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:27,802 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:29,517 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:17:29,803 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:31,804 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:33,804 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:35,805 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:37,674 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:17:37,674 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:17:37,806 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:39,806 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:41,807 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:43,808 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:45,809 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:47,809 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:49,810 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:51,811 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:52,741 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:17:52,742 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:17:53,812 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:55,812 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:57,813 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:17:59,814 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:00,442 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:18:01,815 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:03,815 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:05,816 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:07,811 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:18:07,811 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:18:07,817 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:09,817 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:11,818 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:13,819 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:14,537 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:18:14,538 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:18:14,538 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:18:14,819 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:18:15,820 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:17,820 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:19,821 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:21,821 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:22,881 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:18:22,881 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:18:23,822 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:25,823 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:27,824 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:29,825 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:31,407 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:18:31,825 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:33,826 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:35,827 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:37,827 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:37,951 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:18:37,951 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:18:39,828 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:41,829 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:43,830 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:45,830 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:47,831 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:49,832 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:51,833 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:53,030 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:18:53,030 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:18:53,833 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:55,834 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:57,835 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:18:59,836 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:01,837 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:02,323 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:19:03,837 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:05,838 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:07,839 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:08,101 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:19:08,102 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:19:09,840 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:11,840 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:13,841 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:15,842 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:17,842 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:19,843 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:21,844 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:23,168 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:19:23,169 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:19:23,845 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:25,845 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:27,846 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:29,847 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:31,847 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:33,228 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:19:33,848 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:35,849 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:37,850 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:38,240 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:19:38,240 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:19:39,850 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:41,851 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:43,852 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:45,852 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:47,853 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:49,854 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:51,855 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:53,311 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:19:53,311 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:19:53,855 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:55,856 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:57,857 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:19:57,985 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:19:57,985 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:19:57,985 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:19:58,857 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:19:59,858 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:01,858 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:03,859 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:04,134 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:20:05,860 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:07,860 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:08,395 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:20:08,395 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:20:09,861 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:11,862 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:13,862 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:15,863 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:17,864 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:19,865 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:21,865 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:23,466 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:20:23,466 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:20:23,866 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:25,867 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:27,867 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:29,868 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:31,869 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:33,870 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:35,036 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:20:35,870 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:37,871 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:38,559 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:20:38,559 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:20:39,872 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:41,873 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:43,873 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:45,874 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:47,875 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:49,876 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:51,876 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:53,627 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:20:53,628 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:20:53,877 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:55,878 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:57,879 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:20:59,879 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:01,880 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:03,880 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:05,881 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:05,928 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:21:08,697 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:21:08,698 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:21:08,882 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:10,883 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:12,884 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:14,884 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:16,885 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:18,886 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:20,887 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:22,887 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:23,766 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:21:23,766 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:21:24,888 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:26,889 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:28,890 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:30,890 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:32,891 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:34,892 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:36,843 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:21:36,893 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:38,297 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:21:38,297 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:21:38,297 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:21:38,834 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:21:38,834 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:21:38,894 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:21:38,894 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:39,894 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:40,894 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:42,895 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:44,896 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:46,897 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:48,897 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:50,898 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:52,899 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:53,906 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:21:53,906 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:21:54,900 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:56,900 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:21:58,901 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:00,902 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:02,902 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:04,903 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:06,904 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:07,759 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:22:08,905 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:08,976 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:22:08,976 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:22:10,905 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:12,906 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:14,907 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:16,908 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:18,909 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:20,909 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:22,910 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:24,045 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:22:24,045 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:22:24,911 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:26,912 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:28,912 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:30,913 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:32,914 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:34,915 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:36,916 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:38,712 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:22:38,916 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:39,119 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:22:39,119 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:22:40,917 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:42,918 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:44,919 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:46,919 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:48,920 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:50,921 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:52,922 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:54,191 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:22:54,191 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:22:54,923 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:56,923 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:22:58,924 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:00,925 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:02,925 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:04,926 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:06,927 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:08,928 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:09,258 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:23:09,258 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:23:09,649 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:23:10,929 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:12,930 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:14,930 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:15,413 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:23:15,413 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:23:15,413 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:23:15,931 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:23:16,931 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:17,932 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:18,932 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:20,933 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:22,933 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:24,329 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:23:24,329 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:23:24,934 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:26,935 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:28,936 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:30,937 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:32,937 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:34,938 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:36,939 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:38,940 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:39,401 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:23:39,401 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:23:40,536 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:23:40,941 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:42,941 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:44,942 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:46,943 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:48,944 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:50,945 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:52,945 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:54,469 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:23:54,469 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:23:54,946 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:56,947 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:23:58,947 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:00,948 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:02,949 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:04,950 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:06,950 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:08,951 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:09,569 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:24:09,569 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:24:10,952 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:11,434 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:24:12,953 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:14,953 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:16,954 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:18,955 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:20,956 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:22,957 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:24,640 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:24:24,640 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:24:24,957 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:26,958 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:28,959 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:30,960 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:32,961 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:34,961 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:36,962 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:38,963 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:39,708 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:24:39,709 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:24:40,964 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:42,335 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:24:42,964 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:44,965 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:46,966 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:47,234 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:24:47,235 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:24:47,235 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:24:47,966 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:24:47,966 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:48,966 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:50,967 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:52,968 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:54,780 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:24:54,781 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:24:54,969 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:56,970 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:24:58,970 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:00,971 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:02,972 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:04,973 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:06,974 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:08,974 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:09,850 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:25:09,850 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:25:10,975 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:12,976 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:13,243 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:25:14,977 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:16,978 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:18,979 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:20,979 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:22,980 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:24,919 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:25:24,919 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:25:24,981 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:26,982 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:28,982 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:30,983 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:32,984 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:34,984 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:36,985 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:38,986 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:40,007 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:25:40,007 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:25:40,987 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:42,987 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:44,144 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:25:44,988 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:46,989 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:48,990 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:50,990 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:52,991 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:54,992 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:55,077 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:25:55,077 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:25:56,992 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:25:58,993 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:00,994 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:02,994 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:04,995 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:06,996 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:08,997 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:10,151 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:26:10,152 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:26:10,313 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:26:10,313 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:26:10,313 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:26:10,998 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:26:10,998 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:11,998 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:12,998 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:14,999 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:15,077 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:26:17,000 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:19,000 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:21,001 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:23,002 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:25,003 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:25,222 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:26:25,222 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:26:27,003 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:29,004 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:31,005 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:33,006 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:35,006 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:37,007 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:39,008 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:40,290 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:26:40,290 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:26:41,009 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:43,009 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:45,010 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:45,979 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:26:47,011 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:49,012 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:51,013 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:53,014 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:55,014 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:55,358 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:26:55,359 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:26:57,015 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:26:59,016 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:01,017 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:03,018 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:05,018 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:07,019 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:09,020 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:10,429 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:27:10,430 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:27:11,021 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:13,021 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:15,022 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:16,894 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:27:17,023 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:19,024 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:21,025 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:23,026 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:25,026 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:25,505 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:27:25,506 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:27:27,027 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:29,028 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:31,028 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:33,029 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:35,030 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:37,031 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:39,032 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:40,577 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:27:40,577 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:27:41,032 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:41,616 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:27:41,616 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:27:41,617 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:27:42,033 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:27:43,033 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:44,033 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:45,034 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:47,034 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:47,804 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:27:49,035 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:51,036 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:53,037 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:55,038 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:55,643 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:27:55,643 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:27:57,038 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:27:59,039 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:01,040 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:03,041 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:05,041 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:07,042 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:09,043 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:10,713 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:28:10,713 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:28:11,043 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:13,044 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:15,045 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:17,046 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:18,712 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:28:19,046 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:21,047 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:23,048 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:25,049 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:25,783 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:28:25,783 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:28:27,049 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:29,050 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:31,051 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:33,052 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:35,053 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:37,053 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:39,054 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:40,853 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:28:40,853 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:28:41,056 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:43,056 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:45,056 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:47,057 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:49,058 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:49,637 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:28:51,059 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:53,059 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:55,060 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:56,006 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:28:56,007 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:28:57,061 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:28:59,062 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:01,062 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:03,063 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:05,064 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:07,065 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:09,065 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:11,066 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:11,076 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:29:11,076 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:29:13,067 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:15,067 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:15,902 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:29:15,902 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:29:15,902 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:29:16,068 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:29:17,068 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:18,075 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:19,069 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:20,633 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:29:21,070 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:23,070 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:25,071 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:26,146 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:29:26,147 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:29:27,072 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:29,072 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:31,073 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:33,074 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:35,075 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:37,075 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:39,076 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:41,077 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:41,218 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:29:41,218 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:29:43,077 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:45,078 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:47,079 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:49,080 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:51,080 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:51,532 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:29:53,081 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:55,082 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:56,287 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:29:56,288 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:29:57,082 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:29:59,083 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:01,084 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:03,085 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:05,085 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:07,086 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:09,087 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:11,088 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:11,365 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:30:11,365 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:30:13,088 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:15,089 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:17,090 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:19,090 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:21,091 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:22,454 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:30:23,092 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:25,093 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:26,491 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:30:26,491 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:30:27,093 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:29,094 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:31,095 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:33,096 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:35,096 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:37,097 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:39,098 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:41,098 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:41,580 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:30:41,580 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:30:43,099 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:45,100 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:45,178 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:30:45,178 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:30:45,178 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:30:46,100 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:30:47,101 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:49,101 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:51,102 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:53,103 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:53,365 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:30:55,103 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:56,650 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:30:56,651 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:30:57,104 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:30:59,105 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:01,106 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:03,106 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:05,107 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:07,108 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:09,109 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:11,110 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:11,719 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:31:11,719 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:31:13,110 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:15,111 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:17,112 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:19,113 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:21,114 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:23,114 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:24,308 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:31:25,115 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:26,788 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:31:26,789 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:31:27,116 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:29,116 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:31,117 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:33,118 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:35,119 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:37,119 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:39,120 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:41,121 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:41,862 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:31:41,863 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:31:43,122 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:45,122 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:47,123 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:49,124 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:51,125 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:53,126 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:55,126 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:55,232 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:31:56,937 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:31:56,937 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:31:57,127 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:31:59,128 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:01,128 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:03,129 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:05,130 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:07,130 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:09,131 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:10,126 DEBUG   SenderThread:17800 [sender.py:send():238] send: history
+2021-10-31 14:32:10,126 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:32:10,127 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:32:10,131 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:32:11,132 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:12,011 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:32:12,011 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:32:13,132 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:15,133 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:17,134 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:19,134 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:21,135 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:23,136 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:25,137 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:26,142 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:32:27,086 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:32:27,086 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:32:28,138 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:30,138 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:32,139 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:34,140 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:36,141 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:38,141 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:40,142 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:42,143 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:42,154 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:32:42,154 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:32:44,144 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:46,144 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:48,145 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:50,146 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:52,146 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:54,147 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:56,148 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:32:57,094 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:32:57,223 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: stop_status
+2021-10-31 14:32:57,224 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: stop_status
+2021-10-31 14:32:58,149 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:33:00,149 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:33:02,150 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:33:04,151 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:33:05,057 WARNING MainThread:17800 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-10-31 14:33:06,152 INFO    Thread-8  :17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:33:07,567 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:07,567 DEBUG   SenderThread:17800 [sender.py:send():238] send: telemetry
+2021-10-31 14:33:07,567 DEBUG   SenderThread:17800 [sender.py:send():238] send: exit
+2021-10-31 14:33:07,568 INFO    SenderThread:17800 [sender.py:send_exit():370] handling exit code: 255
+2021-10-31 14:33:07,568 INFO    SenderThread:17800 [sender.py:send_exit():372] handling runtime: 1368
+2021-10-31 14:33:07,568 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:33:07,569 INFO    SenderThread:17800 [sender.py:send_exit():382] send defer
+2021-10-31 14:33:07,569 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:07,570 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:07,570 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 0
+2021-10-31 14:33:07,570 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:07,570 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 0
+2021-10-31 14:33:07,570 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 1
+2021-10-31 14:33:07,571 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:07,571 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 1
+2021-10-31 14:33:07,671 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:07,671 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 1
+2021-10-31 14:33:07,671 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 2
+2021-10-31 14:33:07,672 DEBUG   SenderThread:17800 [sender.py:send():238] send: stats
+2021-10-31 14:33:07,672 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:07,674 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:07,674 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:07,674 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 2
+2021-10-31 14:33:07,674 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:07,675 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 2
+2021-10-31 14:33:07,675 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 3
+2021-10-31 14:33:07,675 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:07,675 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 3
+2021-10-31 14:33:07,676 DEBUG   SenderThread:17800 [sender.py:send():238] send: summary
+2021-10-31 14:33:07,676 INFO    SenderThread:17800 [sender.py:_save_file():960] saving file wandb-summary.json with policy end
+2021-10-31 14:33:07,677 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:07,677 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 3
+2021-10-31 14:33:07,677 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 4
+2021-10-31 14:33:07,677 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:07,678 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 4
+2021-10-31 14:33:07,678 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:07,678 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 4
+2021-10-31 14:33:07,777 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:07,782 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 5
+2021-10-31 14:33:07,783 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:07,783 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:07,783 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 5
+2021-10-31 14:33:07,784 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:07,784 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 5
+2021-10-31 14:33:07,784 INFO    SenderThread:17800 [dir_watcher.py:finish():283] shutting down directory watcher
+2021-10-31 14:33:07,885 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,153 INFO    SenderThread:17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/config.yaml
+2021-10-31 14:33:08,154 INFO    SenderThread:17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:33:08,154 INFO    SenderThread:17800 [dir_watcher.py:_on_file_modified():230] file/dir modified: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:33:08,155 INFO    SenderThread:17800 [dir_watcher.py:finish():313] scan: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files
+2021-10-31 14:33:08,155 INFO    SenderThread:17800 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json wandb-summary.json
+2021-10-31 14:33:08,155 INFO    SenderThread:17800 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/config.yaml config.yaml
+2021-10-31 14:33:08,155 INFO    SenderThread:17800 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/requirements.txt requirements.txt
+2021-10-31 14:33:08,162 INFO    SenderThread:17800 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-metadata.json wandb-metadata.json
+2021-10-31 14:33:08,162 INFO    SenderThread:17800 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/conda-environment.yaml conda-environment.yaml
+2021-10-31 14:33:08,163 INFO    SenderThread:17800 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log output.log
+2021-10-31 14:33:08,191 INFO    SenderThread:17800 [dir_watcher.py:finish():327] scan save: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/code/main.py code/main.py
+2021-10-31 14:33:08,192 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 6
+2021-10-31 14:33:08,192 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,194 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:08,194 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 6
+2021-10-31 14:33:08,194 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:08,194 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 6
+2021-10-31 14:33:08,195 INFO    SenderThread:17800 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-31 14:33:08,302 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,303 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,405 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,411 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,504 INFO    Thread-14 :17800 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/config.yaml
+2021-10-31 14:33:08,506 INFO    Thread-15 :17800 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/requirements.txt
+2021-10-31 14:33:08,513 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,515 INFO    Thread-16 :17800 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/conda-environment.yaml
+2021-10-31 14:33:08,516 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,529 INFO    Thread-17 :17800 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/output.log
+2021-10-31 14:33:08,532 INFO    Thread-13 :17800 [upload_job.py:push():137] Uploaded file /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/files/wandb-summary.json
+2021-10-31 14:33:08,619 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,619 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,721 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,722 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,733 INFO    Thread-7  :17800 [sender.py:transition_state():395] send defer: 7
+2021-10-31 14:33:08,734 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:08,734 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 7
+2021-10-31 14:33:08,734 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:08,734 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 7
+2021-10-31 14:33:08,824 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,868 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 8
+2021-10-31 14:33:08,869 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,869 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:08,870 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 8
+2021-10-31 14:33:08,870 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:08,870 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 8
+2021-10-31 14:33:08,870 INFO    SenderThread:17800 [sender.py:transition_state():395] send defer: 9
+2021-10-31 14:33:08,871 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: defer
+2021-10-31 14:33:08,871 DEBUG   SenderThread:17800 [sender.py:send():238] send: final
+2021-10-31 14:33:08,872 INFO    HandlerThread:17800 [handler.py:handle_request_defer():147] handle defer: 9
+2021-10-31 14:33:08,872 DEBUG   SenderThread:17800 [sender.py:send():238] send: footer
+2021-10-31 14:33:08,872 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: defer
+2021-10-31 14:33:08,873 INFO    SenderThread:17800 [sender.py:send_request_defer():391] handle sender defer: 9
+2021-10-31 14:33:08,971 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: poll_exit
+2021-10-31 14:33:08,972 DEBUG   SenderThread:17800 [sender.py:send_request():252] send_request: poll_exit
+2021-10-31 14:33:08,972 INFO    SenderThread:17800 [file_pusher.py:join():182] waiting for file pusher
+2021-10-31 14:33:09,123 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: get_summary
+2021-10-31 14:33:09,124 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: sampled_history
+2021-10-31 14:33:09,126 DEBUG   HandlerThread:17800 [handler.py:handle_request():130] handle_request: shutdown
+2021-10-31 14:33:09,126 INFO    HandlerThread:17800 [handler.py:finish():731] shutting down handler
+2021-10-31 14:33:09,872 INFO    WriterThread:17800 [datastore.py:close():281] close: /home/dalab5/Projects/MA_packed/wandb/run-20211031_141017-2xpzsfhf/run-2xpzsfhf.wandb
+2021-10-31 14:33:10,121 INFO    SenderThread:17800 [sender.py:finish():1091] shutting down sender
+2021-10-31 14:33:10,121 INFO    SenderThread:17800 [file_pusher.py:finish():177] shutting down file pusher
+2021-10-31 14:33:10,121 INFO    SenderThread:17800 [file_pusher.py:join():182] waiting for file pusher
+2021-10-31 14:33:10,134 INFO    MainThread:17800 [internal.py:handle_exit():77] Internal process exited

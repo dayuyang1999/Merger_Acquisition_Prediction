@@ -1,0 +1,186 @@
+
+CUDA availability: True
+  1%|██                                                                                                                                                                                                               | 5/496 [00:01<01:40,  4.89it/s]
+### event lambdas:  tensor([[0.8240],
+        [0.9029],
+        [0.8002],
+        [0.9293],
+        [0.9140],
+        [0.9462],
+        [0.9393],
+        [0.9492],
+        [0.9282],
+        [0.9666],
+        [0.8234],
+        [0.8961]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.7294],
+        [0.7564],
+        [0.8439],
+        [0.8452],
+        [0.9374],
+        [0.6915],
+        [0.9937],
+        [0.9506],
+        [0.8247],
+        [0.8582]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.7439],
+        [0.6846],
+        [0.8257],
+        [0.7420],
+        [0.6900],
+        [0.7688]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.7546],
+        [0.8955],
+        [0.8621],
+        [0.8132],
+        [0.6957]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.7405],
+        [0.7194],
+        [0.7418],
+        [0.7140],
+        [0.7047],
+        [0.6676],
+        [0.6744],
+        [0.6900],
+        [0.6651],
+        [0.7412],
+        [0.7044]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.6734],
+        [0.6563],
+        [0.6727],
+        [0.6534],
+        [0.7023],
+        [0.7030],
+        [0.7053],
+
+  3%|█████▊                                                                                                                                                                                                          | 14/496 [00:03<01:45,  4.58it/s]
+### event lambdas:  tensor([[0.6478],
+        [0.6780],
+        [0.6539],
+        [0.6783],
+        [0.6697],
+        [0.6429],
+        [0.6597],
+        [0.6580],
+        [0.6619],
+        [0.6747],
+        [0.6657],
+        [0.6753],
+        [0.6671],
+        [0.6991],
+        [0.6623],
+        [0.6682],
+        [0.6963],
+        [0.6498],
+        [0.6870],
+        [0.6985],
+        [0.7284]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.6388],
+        [0.6461],
+        [0.6456],
+        [0.6619],
+        [0.6464],
+        [0.6624],
+        [0.6689],
+        [0.6673],
+        [0.6866],
+        [0.6555],
+        [0.6879],
+        [0.7180],
+        [0.6823],
+        [0.6681],
+        [0.6958]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.6599],
+        [0.6300],
+        [0.6269],
+        [0.6372],
+        [0.6489]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.6256],
+        [0.6123],
+        [0.6170],
+        [0.6334],
+        [0.6314],
+        [0.6353],
+        [0.6319],
+        [0.6443]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.6077],
+        [0.6024],
+        [0.6039],
+        [0.6542],
+        [0.6011]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.6835],
+        [0.5893],
+        [0.6992],
+        [0.5887],
+        [0.5893]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.5776],
+        [0.5776],
+        [0.5770],
+        [0.5773],
+        [0.5771],
+        [0.5774]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.5528],
+        [0.5551],
+        [0.5514],
+        [0.5469],
+        [0.5542],
+        [0.5462],
+        [0.5471],
+        [0.5467],
+        [0.5472],
+        [0.5397],
+        [0.5410],
+        [0.5423],
+        [0.5459]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.5273],
+        [0.4379],
+        [0.4969]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.4714],
+        [0.4939],
+        [0.4749],
+        [0.4629],
+        [0.4623],
+        [0.4674],
+        [0.4589],
+        [0.4141],
+        [0.4316],
+        [0.4270],
+        [0.4173]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.2086],
+        [0.4335],
+        [0.3233],
+        [0.1176],
+        [0.3612],
+        [0.4030]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.2355],
+        [0.2695],
+        [0.3829],
+        [0.3498]], grad_fn=<SigmoidBackward>)
+### event lambdas:  tensor([[0.1417],
+        [0.1565],
+        [0.1722],
+  4%|███████▉                                                                                                                                                                                                        | 19/496 [00:03<01:38,  4.84it/s]
+Traceback (most recent call last):
+  File "main.py", line 126, in <module>
+    main()
+  File "main.py", line 122, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 81, in train
+    loss, timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 179, in forward
+    mat_c = self.c_net(arr_c)[0] # (B, L2, embedding_c);
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/rnn.py", line 821, in forward
+    result = _VF.gru(input, hx, self._flat_weights, self.bias, self.num_layers,
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 197, in format_stack
+    return format_list(extract_stack(f, limit=limit))
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 211, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 366, in extract
+    f.line
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 288, in line
+    self._line = linecache.getline(self.filename, self.lineno).strip()
+KeyboardInterrupt

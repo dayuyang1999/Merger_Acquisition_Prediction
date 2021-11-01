@@ -1,0 +1,13 @@
+/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py:1709: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 63, in train
+    print("Epoch {}. Total Loss: {:.4f}. Timing MLE loss: {:.4f}. Choice BCE loss {:.4f}".format(
+TypeError: unsupported format string passed to numpy.ndarray.__format__
+CUDA availability: True
+tensor([[0., 0., 0., 0.]], grad_fn=<MulBackward0>)
+tensor([inf], dtype=torch.float64, grad_fn=<AddBackward0>) tensor([inf], dtype=torch.float64, grad_fn=<AddBackward0>) tensor(2.1775, grad_fn=<SumBackward0>)

@@ -1,0 +1,61 @@
+
+CUDA availability: True
+  1%|▊                                                                                                                                               | 3/496 [00:00<01:26,  5.71it/s]
+Traceback (most recent call last):
+  File "main.py", line 156, in <module>
+    main()
+  File "main.py", line 152, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 107, in train
+    loss, pos_timing_loss, neg_timing_loss, choice_l = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 178, in forward
+    mat_c = self.c_net(arr_c)[0] # (B, L2, embedding_c);
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/rnn.py", line 821, in forward
+    result = _VF.gru(input, hx, self._flat_weights, self.bias, self.num_layers,
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 197, in format_stack
+    return format_list(extract_stack(f, limit=limit))
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 211, in extract_stack
+    stack = StackSummary.extract(walk_stack(f), limit=limit)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/traceback.py", line 362, in extract
+    linecache.checkcache(filename)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/linecache.py", line 53, in checkcache
+    def checkcache(filename=None):
+KeyboardInterrupt
+##### :  torch.Size([1, 5, 1]) torch.Size([1, 5, 32])
+torch.Size([1, 5, 5])
+##### :  torch.Size([1, 50, 1]) torch.Size([1, 50, 32])
+torch.Size([1, 50, 50])
+### event lambdas:  tensor([[[3.6099, 4.9724, 6.0746, 4.9319, 5.8633]],
+        [[3.9113, 5.2792, 6.3826, 5.2387, 6.1712]],
+        [[4.5405, 5.9154, 7.0205, 5.8748, 6.8089]],
+        [[4.2657, 5.6381, 6.7426, 5.5975, 6.5310]],
+        [[3.9176, 5.2856, 6.3890, 5.2450, 6.1776]]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(-42.3924, grad_fn=<NegBackward>) non event loss:  tensor([1980683.6195], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(3.5639, grad_fn=<SumBackward0>)
+##### :  torch.Size([1, 8, 1]) torch.Size([1, 8, 32])
+torch.Size([1, 8, 8])
+##### :  torch.Size([1, 80, 1]) torch.Size([1, 80, 32])
+torch.Size([1, 80, 80])
+### event lambdas:  tensor([[[0.6266, 0.6131, 0.6344, 1.5738, 0.8654, 1.0558, 1.8140, 1.2989]],
+        [[0.6148, 0.6015, 0.6225, 1.5537, 0.8507, 1.0392, 1.7927, 1.2804]],
+        [[0.5927, 0.5798, 0.6003, 1.5155, 0.8231, 1.0080, 1.7522, 1.2455]],
+        [[0.9540, 0.9361, 0.9643, 2.0804, 1.2587, 1.4892, 2.3424, 1.7720]],
+        [[0.4460, 0.4356, 0.4521, 1.2436, 0.6354, 0.7927, 1.4617, 1.0005]],
+        [[0.5882, 0.5754, 0.5957, 1.5076, 0.8175, 1.0016, 1.7439, 1.2383]],
+        [[0.6224, 0.6090, 0.6302, 1.5667, 0.8602, 1.0499, 1.8064, 1.2923]],
+        [[0.4817, 0.4706, 0.4881, 1.3129, 0.6818, 0.8464, 1.5362, 1.0623]]],
+       grad_fn=<SoftplusBackward>)
+##### event loss: tensor(3.8131, grad_fn=<NegBackward>) non event loss:  tensor([763693.5127], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(2.8050, grad_fn=<SumBackward0>)
+##### :  torch.Size([1, 4, 1]) torch.Size([1, 4, 32])
+torch.Size([1, 4, 4])
+##### :  torch.Size([1, 40, 1]) torch.Size([1, 40, 32])
+torch.Size([1, 40, 40])
+### event lambdas:  tensor([[[0.0501, 0.2602, 0.2563, 0.6731]],
+        [[0.0344, 0.1843, 0.1814, 0.5031]],
+        [[0.0648, 0.3270, 0.3222, 0.8108]],
+        [[0.0359, 0.1918, 0.1888, 0.5206]]], grad_fn=<SoftplusBackward>)
+##### event loss: tensor(26.0465, grad_fn=<NegBackward>) non event loss:  tensor([144703.7139], dtype=torch.float64, grad_fn=<MulBackward0>) chocie_l: tensor(0.5499, grad_fn=<SumBackward0>)

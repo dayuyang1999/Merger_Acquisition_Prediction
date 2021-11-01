@@ -1,0 +1,22 @@
+/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/functional.py:1709: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+Traceback (most recent call last):
+  File "main.py", line 88, in <module>
+    main()
+  File "main.py", line 84, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 54, in train
+    choice_loss_e += choice_loss.detach().numpy()[0]
+IndexError: too many indices for array: array is 0-dimensional, but 1 were indexed
+CUDA availability: True
+tensor([[-112032.0915,  -35820.2466,  -35789.7408,  154195.3225]],
+       dtype=torch.float64, grad_fn=<AddBackward0>)
+tensor([[ -2.1769e+44,  -6.4848e+64, -4.7594e+102,  -1.1076e+13,  -1.4871e+18,
+          -3.0385e+20,  -3.4264e+19,  -4.2200e+16,  -6.1611e+48,  -3.3577e+18,
+          -1.1354e+06,  -6.6200e+09,  -1.5102e+20,  -1.7712e+36,  -3.2275e+17,
+          -1.0703e+27,  -1.5555e+16,  -1.1881e+11, -7.0240e+121,  -2.6149e+07,
+          -7.9265e+50,  -4.1226e+30,  -2.3781e+59, -6.2422e+161,  -1.7568e+61,
+          -8.5300e+09,  -2.2448e+19,  -2.9010e+07,   1.5428e+05,  -2.0141e+06,
+          -7.1156e+42,  -9.0379e+25,  -2.6682e+19,  -1.8601e+22,  -5.0666e+39,
+          -1.4681e+23,  -2.9204e+04,  -4.9740e+60,  -9.3907e+04,  -2.6262e+21]],
+       dtype=torch.float64, grad_fn=<AddBackward0>)

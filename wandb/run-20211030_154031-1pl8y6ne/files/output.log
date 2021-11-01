@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 63, in train
+    print("Epoch {}. Total Loss: {:.4f}. Timing MLE loss: {:.4f}. Choice BCE loss {:.4f}".format(
+TypeError: unsupported format string passed to numpy.ndarray.__format__
+CUDA availability: True
+tensor([[ 6.0662,  8.0398,  2.4763, 10.0300]], grad_fn=<MulBackward0>)
+tensor(7.0995, grad_fn=<SumBackward0>)

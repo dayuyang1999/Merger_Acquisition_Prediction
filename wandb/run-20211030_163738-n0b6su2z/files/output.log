@@ -1,0 +1,36 @@
+
+CUDA availability: True
+### rate: tensor([[238373.9688, 209183.8125, 303219.0625, 302962.6875, 513306.5312]],
+       grad_fn=<AddBackward0>)
+### rate: tensor([[409846.8438, 332631.4375, 675145.0000, 675079.2500, 253003.9531,
+         362052.6250, 459344.1875, 362137.4062, 253025.8906, 294025.5000,
+         209144.4844, 513343.3750, 209178.2812, 675121.6875, 513371.7812,
+         294055.6875, 513302.4375, 294162.9062, 675199.6250, 303138.1562,
+         303212.2812, 253048.3594, 303218.6250, 294019.9062, 459423.6562,
+         209179.0312, 618232.0000, 438222.5312, 209038.6719, 332629.9688,
+         209033.0938, 253006.6250, 209105.0625, 209097.5000, 618180.7500,
+         332695.6562, 294046.9375, 253005.1250, 253025.1719, 302969.2188,
+         294144.9062, 459445.6250, 618258.1875, 253035.1094, 253026.4688,
+         332726.0000, 675126.6250, 459407.6250, 294078.8750, 303145.8750]],
+       grad_fn=<AddBackward0>)
+### event lambdas:  tensor([[1., 1., 1., 1., 1.]], grad_fn=<SigmoidBackward>)
+### non event lambdas:  tensor([[1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+         1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.,
+         1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.]],
+       grad_fn=<SigmoidBackward>)
+Traceback (most recent call last):
+  File "main.py", line 89, in <module>
+    main()
+  File "main.py", line 85, in main
+    model_trained = train(dataset, config,  device)
+  File "main.py", line 48, in train
+    loss, timing_loss, choice_loss  = model(arr_b.float(), arr_c.float(), arr_delta_time.float(), event_data, non_event_data, estimate_length, choice_data_dict)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 195, in forward
+    event_choice_loss = self.choice_net(mat_b, mat_c, choice_data_dict, self.s_year, self.e_year)
+  File "/home/dalab5/miniconda3/envs/GNN/lib/python3.8/site-packages/torch/nn/modules/module.py", line 889, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/dalab5/Projects/MA_packed/model.py", line 324, in forward
+    arr_b_idx_i = torch.stack(arr_b_idx_i).squeeze()
+TypeError: stack(): argument 'tensors' (position 1) must be tuple of Tensors, not Tensor
