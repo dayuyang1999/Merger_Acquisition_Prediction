@@ -33,13 +33,15 @@ In case of modeling, I use a Deep Learning Approach to learn the conditional int
 - the sparsity is modeled inside the CIF (so no resampling techniques required)
 - can make continuous prediction (compared with logistic regression, where the prediction period is ad-hoc)
 
-The overall model structure:
-<img src="https://github.com/dayuyang1999/MA_packed/blob/master/structure.png" alt="png" width="500" height="300"/>
+<p align="center">
+    <img src="https://github.com/dayuyang1999/MA_packed/blob/master/structure.png" alt="png" width="500" height="300"/>The overall model structure:
+    <img src="https://github.com/dayuyang1999/MA_packed/blob/master/tpp-gnn.png" alt="png" width="500" height="300"/>How I combine Temporal Point Process(TPP) and Graph Neural Network (GNN):
 
-How I combine Temporal Point Process(TPP) and Graph Neural Network (GNN):
+
+</p>
 
 
-<img src="https://github.com/dayuyang1999/MA_packed/blob/master/tpp-gnn.png" alt="png" width="500" height="200"/>
+
 
 
 
