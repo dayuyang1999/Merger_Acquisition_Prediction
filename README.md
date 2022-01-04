@@ -34,12 +34,12 @@ In case of modeling, I use a Deep Learning Approach to learn the conditional int
 - can make continuous prediction (compared with logistic regression, where the prediction period is ad-hoc)
 
 The overall model structure:
-<img src="https://github.com/dayuyang1999/MA_packed/structure.png" alt="png" width="500" height="500"/>
+<img src="https://github.com/dayuyang1999/MA_packed/blob/master/structure.png" alt="png" width="500" height="500"/>
 
 How I combine Temporal Point Process(TPP) and Graph Neural Network (GNN):
 
 
-<img src="https://github.com/dayuyang1999/MA_packed/tpp-gnn.png" alt="png" width="500" height="500"/>
+<img src="https://github.com/dayuyang1999/MA_packed/blob/master/tpp-gnn.png" alt="png" width="500" height="500"/>
 
 
 
