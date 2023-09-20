@@ -59,11 +59,5 @@ For the rest of files:
 
 
 
----
 
-
-
-## Training Cache:
-
-![](https://cdn.mathpix.com/snip/images/IT6TxGhQT9dbZjif3qv-tc_cpVT_ZNJZoHdqlGMN-Kc.original.fullsize.png)
 
