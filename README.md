@@ -1,8 +1,6 @@
 # Predicting Merger and Acquisition: A Deep Learning Method
 
 
-This Project is my first summer project in my Ph.D. program. 
-
 # Introduction
 Merger and Acquisition(MA) is contagious, a.k.a, previous events can effect the the future event. Most traditional literature use "acquisition likelihood model" (based on logistic regression) to predict MA. There are some disavantages:
 - Can only predict one side of the deal (however, obviously, MA is a mutual aggrement)
@@ -58,6 +56,18 @@ For the rest of files:
 - wandb: training caches
 
 
+---
+# Citation
+```
+@software{MA_DL,
+  author = {Yang, Dayu},
+  month = {12},
+  title = {{Merge and Acquisition: A Deep Learning Appoarch}},
+  url = {https://github.com/dayuyang1999/Merger_Acquisition_Prediction},
+  version = {0.0.1},
+  year = {2019}
+}
+```
 
 
 
